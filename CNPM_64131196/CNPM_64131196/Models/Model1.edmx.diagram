@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="c4353c76184d4f4c8039a74162e6f17a" Name="Diagram1">
+        <EntityTypeShape EntityType="Congnghephanmem_64131196Model.Comments" Width="1.5" PointX="5.25" PointY="7.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="Congnghephanmem_64131196Model.DatLichPT" Width="1.5" PointX="8.25" PointY="7.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="Congnghephanmem_64131196Model.GoiTap" Width="1.5" PointX="5.75" PointY="11.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="Congnghephanmem_64131196Model.HuanLuyenVien" Width="1.5" PointX="3" PointY="7" IsExpanded="true" />
+        <EntityTypeShape EntityType="Congnghephanmem_64131196Model.KhachHang" Width="1.5" PointX="8" PointY="11" IsExpanded="true" />
+        <EntityTypeShape EntityType="Congnghephanmem_64131196Model.LichLamViecPT" Width="1.5" PointX="5.25" PointY="14.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="Congnghephanmem_64131196Model.NguoiQuanTri" Width="1.5" PointX="3" PointY="16.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Congnghephanmem_64131196Model.VaiTro" Width="1.5" PointX="0.75" PointY="9.125" IsExpanded="true" />
+        <AssociationConnector Association="Congnghephanmem_64131196Model.FK__Comments__MaKH__5AEE82B9" ManuallyRouted="false" />
+        <AssociationConnector Association="Congnghephanmem_64131196Model.FK__Comments__MaPT__59FA5E80" ManuallyRouted="false" />
+        <AssociationConnector Association="Congnghephanmem_64131196Model.FK__DatLichPT__MaKH__5DCAEF64" ManuallyRouted="false" />
+        <AssociationConnector Association="Congnghephanmem_64131196Model.FK__DatLichPT__MaPT__5EBF139D" ManuallyRouted="false" />
+        <AssociationConnector Association="Congnghephanmem_64131196Model.FK__KhachHang__MaGoi__4E88ABD4" ManuallyRouted="false" />
+        <AssociationConnector Association="Congnghephanmem_64131196Model.FK__HuanLuyen__MaVai__5165187F" ManuallyRouted="false" />
+        <AssociationConnector Association="Congnghephanmem_64131196Model.FK__LichLamVie__MaPT__571DF1D5" ManuallyRouted="false" />
+        <AssociationConnector Association="Congnghephanmem_64131196Model.FK__KhachHang__MaVai__4D94879B" ManuallyRouted="false" />
+        <AssociationConnector Association="Congnghephanmem_64131196Model.FK__NguoiQuan__MaVai__5441852A" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
