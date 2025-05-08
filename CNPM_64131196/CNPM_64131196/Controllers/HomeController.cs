@@ -47,6 +47,7 @@ namespace CNPM_64131196.Controllers
                 Session["user"] = hlv;
                 return RedirectToAction("Index", "Home", new { area = "HuanLuyenVien" });
             }
+           
 
             NguoiQuanTri nqt = new MapNguoiQuanTri().getByTaiKhoan(taiKhoan);
             Session["user"] = nqt;

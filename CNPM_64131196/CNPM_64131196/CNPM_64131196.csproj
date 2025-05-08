@@ -132,6 +132,7 @@
     <Compile Include="Areas\Admin\Controllers\HomeController.cs" />
     <Compile Include="Areas\HuanLuyenVien\Controllers\HomeController.cs" />
     <Compile Include="Areas\HuanLuyenVien\HuanLuyenVienAreaRegistration.cs" />
+    <Compile Include="Controllers\HuanLuyenVienController.cs" />
     <Compile Include="Models\Comments.cs">
       <DependentUpon>Model1.tt</DependentUpon>
     </Compile>
@@ -2280,6 +2281,7 @@
     <Folder Include="App_Data\" />
     <Folder Include="Areas\Admin\Data\" />
     <Folder Include="Areas\HuanLuyenVien\Data\" />
+    <Folder Include="Views\HuanLuyenVien\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\bootstrap.rtl.min.css.map" />
