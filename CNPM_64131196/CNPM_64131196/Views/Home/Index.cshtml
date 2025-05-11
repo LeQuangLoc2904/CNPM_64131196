@@ -4,5 +4,52 @@
     Layout = "~/Views/Shared/HomeLayout.cshtml";
 }
 
-<h2>Index</h2>
-
+<!-- Carousel Start -->
+<div class="header-carousel owl-carousel overflow-hidden bg-dark">
+    <div class="header-carousel-item hero-section">
+        <div class="hero-bg-half-1"></div>
+        <div class="carousel-caption">
+            <div class="container">
+                <div class="row g-4 align-items-center">
+                    <div class="col-lg-7 animated fadeInLeft">
+                        <div class="text-sm-center text-md-start">
+                            <h4 class="text-primary text-uppercase fw-bold mb-4">Chào mừng đến với T-Life Gym & Fitness</h4>
+                            <h4 class="display-3 text-white mb-4">Một trong những trung tâm phòng tập thể dục tốt nhất đã có mặt tại thành phố của bạn</h4>
+                            <p class="mb-5 fs-5">@ViewBag.quote1
+                            </p>
+                            <div class="d-flex justify-content-center justify-content-md-start flex-shrink-0 mb-4">
+                                <a class="btn btn-dark py-3 px-4 px-md-5 me-2" href="#">
+                                    @*<i class="fas fa-play-circle me-2"></i>*@<i class="fas fa-calendar me-1"></i><span class="fs-5">Đặt lịch ngay</span>
+                                                            </a>
+                                @*<a class="btn btn-primary py-3 px-4 px-md-5 ms-2" href="#"><span>Learn More</span></a>*@
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="header-carousel-item hero-section">
+        <div class="hero-bg-half-2"></div>
+        <div class="carousel-caption">
+            <div class="container">
+                <div class="row g-4 align-items-center">
+                    <div class="col-lg-7 animated fadeInLeft">
+                        <div class="text-sm-center text-md-start">
+                            <h4 class="text-primary text-uppercase fw-bold mb-4">Chào mừng đến với T-Life Gym & Fitness</h4>
+                            <h4 class="display-3 text-white mb-4">Giữ gìn sức khỏe bằng cách tập luyện tại trung tâm thể dục tốt nhất</h4>
+                            <p class="mb-5 fs-5 fs-5">
+                                @ViewBag.quote2
+                            </p>
+                            <div class="d-flex justify-content-center justify-content-md-start flex-shrink-0 mb-4">
+                                <a class="btn btn-dark py-3 px-4 px-md-5 me-2" href="#"><i class="fas fa-calendar me-1"></i><span class="fs-5">Đặt lịch ngay</span></a>
+                                    @*<a class="btn btn-primary py-3 px-4 px-md-5 ms-2" href="#"><span>Learn More</span></a>*@
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Carousel End -->

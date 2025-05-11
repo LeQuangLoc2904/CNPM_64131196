@@ -16,5 +16,10 @@ namespace CNPM_64131196.Models
         {
             return db.HuanLuyenVien.Where(n => n.TaiKhoan == taiKhoan).FirstOrDefault();
         } 
+
+        public List<HuanLuyenVien> getAll()
+        {
+            return db.HuanLuyenVien.ToList();
+        }
     }
 }
