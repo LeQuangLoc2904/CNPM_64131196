@@ -1,22 +1,22 @@
 ﻿using System.Web.Mvc;
 
-namespace CNPM_64131196.Areas.HuanLuyenVien
+namespace CNPM_64131196.Areas.Trainer
 {
-    public class HuanLuyenVienAreaRegistration : AreaRegistration 
+    public class TrainerAreaRegistration : AreaRegistration 
     {
         public override string AreaName 
         {
             get 
             {
-                return "HuanLuyenVien";
+                return "Trainer";
             }
         }
 
         public override void RegisterArea(AreaRegistrationContext context) 
         {
             context.MapRoute(
-                "HuanLuyenVien_default",
-                "HuanLuyenVien/{controller}/{action}/{id}",
+                "Trainer_default",
+                "Trainer/{controller}/{action}/{id}",
                 new { action = "Index", id = UrlParameter.Optional }
             );
         }

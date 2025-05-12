@@ -64,7 +64,7 @@ namespace CNPM_64131196.Controllers
             if (hlv != null)
             {
                 Session["user"] = hlv;
-                return RedirectToAction("Index", "Home", new { area = "HuanLuyenVien" });
+                return RedirectToAction("Index", "Home", new { area = "Trainer" });
             }
            
 
