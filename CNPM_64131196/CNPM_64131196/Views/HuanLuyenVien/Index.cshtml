@@ -1,0 +1,40 @@
+﻿@using CNPM_64131196.Models
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/HomeLayout.cshtml";
+    List<HuanLuyenVien> dsHLV = ViewBag.dsHLV;
+}
+<!-- Blog Start -->
+<div class="container-fluid blog py-5">
+    <div class="container py-5">
+        <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">            
+            <h1 class="display-4 mb-4">Huấn luyện viên tiêu biểu của chúng tôi</h1>
+            <p class="mb-0">
+                Bạn trao chúng tôi sự tin tưởng, chúng tôi trao bạn môi trường chuyên nghiệp để phát triển và khẳng định bản thân
+            </p>
+        </div>
+        <div class="blog-carousel owl-carousel">
+            @foreach (var item in dsHLV)
+            {
+                <div class="blog-item wow fadeInUp" data-wow-delay="0.2s">
+                    <div class="blog-img p-4 pb-0">
+                        <a href="#">
+                            <img src="~/Images/avatar/@item.AnhDaiDien" class="img-fluid w-100" alt="">
+                        </a>
+                    </div>
+                    <div class="blog-content p-4">
+                        <div class="blog-comment d-flex justify-content-between py-2 px-3 mb-4">
+                            <div class="small"><span class="fa fa-user text-primary me-2"></span> Martin.C</div>
+                            <div class="small"><span class="fa fa-calendar text-primary me-2"></span> 30 Dec 2025</div>
+                        </div>
+                        <a href="#" class="h5 d-inline-block mb-3" style="font-family: 'Roboto', Arial, sans-serif;">@item.Ten</a>
+                        <p class="mb-3">Số điện thoại: &nbsp; @item.SoDienThoai</p>
+                        <a href="@Url.Action("LichLamViec", "HuanLuyenVien", new { id = item.ID})" class="btn btn-dark py-2 px-4 ms-2"> <span class="me-2">Xem lịch làm việc</span>  <i class="fa fa-arrow-right"></i></a>                      
+                    </div>
+                </div>
+            }
+
+        </div>
+    </div>
+</div>
+<!-- Blog End -->

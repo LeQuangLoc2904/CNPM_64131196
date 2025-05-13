@@ -1,0 +1,51 @@
+﻿@using CNPM_64131196.Models
+@{
+    ViewBag.Title = "LichLamViec";
+    Layout = "~/Views/Shared/HomeLayout.cshtml";
+    List<LichLamViecPT> lichLamViec = ViewBag.lichLamViec;
+}
+
+
+<!-- Courses Start -->
+<div class="container-fluid courses overflow-hidden py-5">
+    <div class="container py-5">
+        <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">          
+            <h1 class="display-4 text-white mb-4">Lịch huấn luyện</h1>
+            <p class="text-white mb-0">
+                @ViewBag.quote
+            </p>
+        </div>
+        <div class="row gy-4 gx-0 justify-content-center">
+            @foreach (var item in lichLamViec)
+            {
+                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.2s">
+                    <div class="courses-item">
+                        <div class="courses-item-inner p-4">
+                            <div class="d-flex justify-content-between mb-4">
+                                <div class="courses-icon-img p-3">
+                                    <img src="~/assets/img/icon-1.png" class="img-fluid" alt="">
+                                </div>
+                                <div class="data-info d-flex flex-column">
+                                    <div class="courses-trainer d-flex align-items-center mb-1">
+                                        <div class="me-2" style="width: 25px; height: 25px;">
+                                            <img src="~/Images/avatar/@item.HuanLuyenVien.AnhDaiDien" class="img-fluid" alt="">
+                                        </div>
+                                        <p class="mb-0">@item.HuanLuyenVien.Ten</p>
+                                    </div>                                 
+                                </div>
+                            </div>
+                            <a href="#" class="d-inline-block h5 mb-3"  style="font-family: 'Roboto', Arial, sans-serif;">Thứ: &nbsp; @item.Thu</a>
+                            <p class="mb-4">
+                                Thời gian: @item.GioBatDau - @item.GioKetThuc
+                            </p>
+                            <a href="#" class="btn btn-primary py-2 px-4"> <span>Đặt ngay</span></a>
+                        </div>
+                    </div>
+                </div>
+            }
+
+
+        </div>
+    </div>
+</div>
+<!-- Courses End -->
