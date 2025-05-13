@@ -38,5 +38,18 @@ namespace CNPM_64131196.Controllers
 
             return View();
         }
+
+        [HttpPost]
+        public ActionResult DangKyLichTap(int idPTrainer, int idLichTap)
+        {
+            var code = new { Success = false, msg = "", code = -1};
+            // tìm ngày tập dựa vào thứ, lấy từ idLichTap
+            
+
+            // tạo bản ghi bảng DatLich tại đây
+            
+
+            return Json(code);
+        }
     }
 }

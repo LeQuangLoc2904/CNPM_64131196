@@ -5,11 +5,22 @@
     List<LichLamViecPT> lichLamViec = ViewBag.lichLamViec;
 }
 
-
+@{
+    KhachHang kh = (KhachHang)Session["user"];
+    if (kh == null)
+    {
+        <input type="hidden" id="login" value="0" />
+    }
+    else
+    {
+        <input type="hidden" id="login" value="1" />
+    }
+}
+<input type="hidden" id="txtIDPersonalTrainer" value="@lichLamViec[0].HuanLuyenVien.ID" />
 <!-- Courses Start -->
 <div class="container-fluid courses overflow-hidden py-5">
     <div class="container py-5">
-        <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">          
+        <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
             <h1 class="display-4 text-white mb-4">Lịch huấn luyện</h1>
             <p class="text-white mb-0">
                 @ViewBag.quote
@@ -31,14 +42,14 @@
                                             <img src="~/Images/avatar/@item.HuanLuyenVien.AnhDaiDien" class="img-fluid" alt="">
                                         </div>
                                         <p class="mb-0">@item.HuanLuyenVien.Ten</p>
-                                    </div>                                 
+                                    </div>
                                 </div>
                             </div>
-                            <a href="#" class="d-inline-block h5 mb-3"  style="font-family: 'Roboto', Arial, sans-serif;">Thứ: &nbsp; @item.Thu</a>
+                            <a href="#" class="d-inline-block h5 mb-3" style="font-family: 'Roboto', Arial, sans-serif;">Thứ: &nbsp; @item.Thu</a>
                             <p class="mb-4">
                                 Thời gian: @item.GioBatDau - @item.GioKetThuc
                             </p>
-                            <a href="#" class="btn btn-primary py-2 px-4"> <span>Đặt ngay</span></a>
+                            <a href="#" class="btn btn-primary py-2 px-4 btnDatLich" data-id="@item.ID"> <span>Đặt ngay</span></a>
                         </div>
                     </div>
                 </div>
@@ -49,3 +60,77 @@
     </div>
 </div>
 <!-- Courses End -->
+<div class="modal fade" id="confirmModal" tabindex="-1" aria-labelledby="confirmModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <input type="hidden" id="IDLichTap" value="0" />
+            <div class="modal-header">
+                <h5 class="modal-title" id="confirmModalLabel">Xác nhận đăng ký</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body text-center">
+                @*<i class="fas fa-exclamation-triangle warning-icon"></i>*@ <i class="fas fa-question-circle warning-icon"></i>
+                <p class="mb-0">Bạn có chắc muốn đăng ký thời gian này</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
+                    <i class="fas fa-times me-2"></i>Để nghĩ lại
+                </button>
+                <button type="button" class="btn btn-danger btnDangKy" >
+                    <i class="fas fa-check me-2"></i>Chắc chắn rồi @*<i class="fa-solid fa-check"></i>*@
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section scripts {
+    <script>
+        $(document).ready(function () {
+            $('body').on('click', '.btnDatLich', function () {
+                var isLogin = $('#login').val();
+                if (isLogin == 0) {
+                    window.location.href = '@Url.Action("DangNhap", "Home")';
+                }
+
+                var id = $(this).data('id');
+                $('#IDLichTap').val(id);
+                //var id = $(this).data('id');
+                //$('#txtOrderId').val(id);
+                $('#confirmModal').modal('show');
+            });
+
+            $('body').on('click', '.btnDangKy', function () {
+                var idPT = $('#txtIDPersonalTrainer').val();
+                var idLichtap = $('#IDLichTap').val();
+
+                $.ajax({
+                    url: '/huanluyenvien/dangkylichtap',
+                    type: 'POST',
+                    data: { idPTrainer: idPT, idLichTap: idLichtap },
+                    success: function (res) {
+                        if (res.Success) {
+                            alert(res.msg);
+                        }
+                    }
+                });
+            });
+
+            //$('body').on('click', '.btnLuu', function () {
+            //    var id = $('#txtOrderId').val();
+            //    var tt = $('#ddTrangThai').val();
+
+            //    $.ajax({
+            //        url: '/admin/donhang_64131196/updatett',
+            //        type: 'POST',
+            //        data: { id: id, trangthai: tt },
+            //        success: function (res) {
+            //            if (res.Success) {
+            //                location.reload();
+            //            }
+            //        }
+            //    });
+            //});
+        });
+    </script>
+}
