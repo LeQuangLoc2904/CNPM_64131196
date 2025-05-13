@@ -145,4 +145,30 @@ INSERT INTO LichLamViecPT (MaPT, Thu, GioBatDau, GioKetThuc) VALUES (5, 5, '20:3
 INSERT INTO LichLamViecPT (MaPT, Thu, GioBatDau, GioKetThuc) VALUES (5, 6, '19:30:00', '20:30:00');
 INSERT INTO LichLamViecPT (MaPT, Thu, GioBatDau, GioKetThuc) VALUES (5, 7, '18:00:00', '19:00:00');
 
+CREATE PROCEDURE KhachHang_TimKiem
+    @Ten NVARCHAR(100) = NULL
+AS
+BEGIN
+    DECLARE @SqlStr NVARCHAR(4000)
+    DECLARE @ParamList NVARCHAR(200)
+    DECLARE @TenSearch NVARCHAR(100)
+
+    SET @SqlStr = '
+        SELECT * 
+        FROM KhachHang
+        WHERE 1=1'
+
+    IF @Ten IS NOT NULL
+    BEGIN
+        SET @SqlStr = @SqlStr + '
+            AND Ten LIKE @Ten'
+        SET @TenSearch = N'%' + @Ten + '%'
+    END
+
+    SET @ParamList = '@Ten NVARCHAR(100)'
+
+    EXEC sp_executesql @SqlStr, @ParamList, @Ten = @TenSearch
+END
+
+
 

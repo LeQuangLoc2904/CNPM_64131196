@@ -260,5 +260,23 @@
       <End Role="VaiTro" EntitySet="VaiTro" />
       <End Role="NguoiQuanTri" EntitySet="NguoiQuanTri" />
     </AssociationSet>
+    <FunctionImport Name="KhachHang_TimKiem" ReturnType="Collection(Congnghephanmem_64131196Model.KhachHang_TimKiem_Result)">
+      <Parameter Name="Ten" Mode="In" Type="String" />
+    </FunctionImport>
   </EntityContainer>
+  <ComplexType Name="KhachHang_TimKiem_Result">
+    <Property Type="Int32" Name="ID" Nullable="false" />
+    <Property Type="String" Name="Ten" Nullable="true" MaxLength="100" />
+    <Property Type="Boolean" Name="GioiTinh" Nullable="true" />
+    <Property Type="String" Name="SoDienThoai" Nullable="true" MaxLength="10" />
+    <Property Type="String" Name="AnhDaiDien" Nullable="true" MaxLength="100" />
+    <Property Type="DateTime" Name="NgayDangKyLanDau" Nullable="true" Precision="23" />
+    <Property Type="DateTime" Name="NgayBatDauGoiTap" Nullable="true" Precision="23" />
+    <Property Type="DateTime" Name="NgayKetThucGoiTap" Nullable="true" Precision="23" />
+    <Property Type="Boolean" Name="TinhTrangThanhToan" Nullable="true" />
+    <Property Type="Int32" Name="MaVaiTro" Nullable="true" />
+    <Property Type="Int32" Name="MaGoiTap" Nullable="true" />
+    <Property Type="String" Name="TaiKhoan" Nullable="true" MaxLength="100" />
+    <Property Type="String" Name="MatKhau" Nullable="true" MaxLength="100" />
+  </ComplexType>
 </Schema>

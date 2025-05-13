@@ -1,0 +1,136 @@
+﻿@model IEnumerable<CNPM_64131196.Models.KhachHang>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Areas/Trainer/Views/Shared/_HLVLayout.cshtml";
+    int i = 0;
+    string gtinh = "";
+    string thanhtoan = "";
+}
+
+
+<style>
+    /* Tạo hiệu ứng hover */
+    #example1 thead th:hover {
+        background-color: #00ffff; /* Thay đổi màu nền khi hover */
+    }
+    /* Căn lề giữa */
+
+    #example1 thead th {
+        text-align: center; /* Căn lề giữa cho nội dung */
+    }
+</style>
+<p>
+    <a href="@Url.Action("Create", "Khachhang")" class="btn btn-primary">
+        <i class="fa fa-plus"></i> Thêm Mới
+    </a>
+    <a href="@Url.Action("TimKiem", "KhachHang")" class="btn btn-primary">
+        <i class="fa fa-plus"></i> Tìm Kiếm 
+    </a>
+</p>
+<div class="card">
+    <div class="card-header">
+        <h3 class="card-title">Danh Sách Khách Hàng</h3>
+    </div>
+    <div class="card-body">
+        <table id="example1" class="table table-bordered table-striped">
+            <thead>
+                <tr>
+                    <th>STT</th>
+                                  
+                    <th>Tên KH</th>
+                    <th>Giới Tính</th>
+                    <th>Ngày ĐK lần đầu</th>
+                    <th>Ngày bắt đầu gói tập</th>
+                    <th>Ngày kết thúc gói tập</th>
+                    <th>Tình Trạng thanh toán</th>
+                    <th>Edit</th>
+                    <th>View</th>
+                    <th>Delete</th>
+                </tr>
+            </thead>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <th>
+                        @{i++;}
+                        @i
+                    </th>
+                  
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Ten)
+                    </td>
+
+                    <td>
+                        @{if (item.GioiTinh == true)
+                            { gtinh = "Nam"; }
+                            else
+                            { gtinh = "Nữ"; }
+                        }
+                        @gtinh
+                    </td>
+
+                    <td>
+                        @{
+                            DateTime? NgaySinh = item.NgayDangKyLanDau as DateTime?;
+                        }
+                        @(
+                             NgaySinh.HasValue
+                            ? NgaySinh.Value.ToString("dd/MM/yyyy") // Hiển thị ngày/tháng/năm
+                            : "N/A"
+                            )
+                    </td>
+                    <td>
+                        @{
+                            DateTime? Ngaybd = item.NgayBatDauGoiTap as DateTime?;
+                        }
+                        @(
+                          NgaySinh.HasValue
+                         ? NgaySinh.Value.ToString("dd/MM/yyyy") // Hiển thị ngày/tháng/năm
+                         : "N/A"
+                         )
+                    </td>
+                    <td>
+                        @{
+                            DateTime? Ngaykt = item.NgayKetThucGoiTap as DateTime?;
+                        }
+                                        @(
+                          NgaySinh.HasValue
+                         ? NgaySinh.Value.ToString("dd/MM/yyyy") // Hiển thị ngày/tháng/năm
+                         : "N/A"
+                         )
+                    </td>
+                    <td>
+                        @{if (item.TinhTrangThanhToan == true)
+                            { thanhtoan = "Đã thanh toán"; }
+                            else
+                            { thanhtoan = "Chưa thanh toán"; }
+                        }
+                        @thanhtoan  
+                    </td>
+                   
+                    <td>
+                        <a href="@Url.Action("Edit", new { id = item.ID })" class="btn btn-primary" abbr title="Cập nhật dữ liệu">
+                            <i class="fa fa-edit"></i>
+                        </a>
+                    </td>
+                    <td>
+                        <a href="@Url.Action("Details", new { id = item.ID })" class="btn btn-warning" abbr title="Xem chi tiết">
+                            <i class="fa fa-eye"></i>
+                        </a>
+
+                    </td>
+                    <td>
+                        <a href="@Url.Action("Delete", new { id = item.ID })" class="btn btn-danger" abbr title="Xóa dữ liệu">
+                            <i class="fa fa-trash"></i>
+                        </a>
+
+                    </td>
+                </tr>
+            }
+
+        </table>
+    </div>
+</div>
+
+

@@ -98,5 +98,24 @@
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>
+    <FunctionImportMapping FunctionImportName="KhachHang_TimKiem" FunctionName="Congnghephanmem_64131196Model.Store.KhachHang_TimKiem">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="Congnghephanmem_64131196Model.KhachHang_TimKiem_Result">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Ten" ColumnName="Ten" />
+          <ScalarProperty Name="GioiTinh" ColumnName="GioiTinh" />
+          <ScalarProperty Name="SoDienThoai" ColumnName="SoDienThoai" />
+          <ScalarProperty Name="AnhDaiDien" ColumnName="AnhDaiDien" />
+          <ScalarProperty Name="NgayDangKyLanDau" ColumnName="NgayDangKyLanDau" />
+          <ScalarProperty Name="NgayBatDauGoiTap" ColumnName="NgayBatDauGoiTap" />
+          <ScalarProperty Name="NgayKetThucGoiTap" ColumnName="NgayKetThucGoiTap" />
+          <ScalarProperty Name="TinhTrangThanhToan" ColumnName="TinhTrangThanhToan" />
+          <ScalarProperty Name="MaVaiTro" ColumnName="MaVaiTro" />
+          <ScalarProperty Name="MaGoiTap" ColumnName="MaGoiTap" />
+          <ScalarProperty Name="TaiKhoan" ColumnName="TaiKhoan" />
+          <ScalarProperty Name="MatKhau" ColumnName="MatKhau" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
   </EntityContainerMapping>
 </Mapping>

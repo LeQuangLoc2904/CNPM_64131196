@@ -12,6 +12,8 @@ namespace CNPM_64131196.Models
     using System;
     using System.Data.Entity;
     using System.Data.Entity.Infrastructure;
+    using System.Data.Entity.Core.Objects;
+    using System.Linq;
     
     public partial class Congnghephanmem_64131196Entities : DbContext
     {
@@ -33,5 +35,14 @@ namespace CNPM_64131196.Models
         public virtual DbSet<LichLamViecPT> LichLamViecPT { get; set; }
         public virtual DbSet<NguoiQuanTri> NguoiQuanTri { get; set; }
         public virtual DbSet<VaiTro> VaiTro { get; set; }
+    
+        public virtual ObjectResult<KhachHang_TimKiem_Result> KhachHang_TimKiem(string ten)
+        {
+            var tenParameter = ten != null ?
+                new ObjectParameter("Ten", ten) :
+                new ObjectParameter("Ten", typeof(string));
+    
+            return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction<KhachHang_TimKiem_Result>("KhachHang_TimKiem", tenParameter);
+        }
     }
 }

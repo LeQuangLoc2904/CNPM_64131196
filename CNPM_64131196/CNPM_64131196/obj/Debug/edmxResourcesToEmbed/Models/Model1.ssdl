@@ -89,7 +89,7 @@
     <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
     <Property Name="Ten" Type="nvarchar" MaxLength="100" />
   </EntityType>
-  <Association Name="FK__Comments__MaKH__5AEE82B9">
+  <Association Name="FK__Comments__MaKH__48CFD27E">
     <End Role="KhachHang" Type="Self.KhachHang" Multiplicity="0..1" />
     <End Role="Comments" Type="Self.Comments" Multiplicity="*" />
     <ReferentialConstraint>
@@ -101,7 +101,7 @@
       </Dependent>
     </ReferentialConstraint>
   </Association>
-  <Association Name="FK__Comments__MaPT__59FA5E80">
+  <Association Name="FK__Comments__MaPT__47DBAE45">
     <End Role="HuanLuyenVien" Type="Self.HuanLuyenVien" Multiplicity="0..1" />
     <End Role="Comments" Type="Self.Comments" Multiplicity="*" />
     <ReferentialConstraint>
@@ -113,7 +113,7 @@
       </Dependent>
     </ReferentialConstraint>
   </Association>
-  <Association Name="FK__DatLichPT__MaKH__5DCAEF64">
+  <Association Name="FK__DatLichPT__MaKH__4BAC3F29">
     <End Role="KhachHang" Type="Self.KhachHang" Multiplicity="0..1" />
     <End Role="DatLichPT" Type="Self.DatLichPT" Multiplicity="*" />
     <ReferentialConstraint>
@@ -125,7 +125,7 @@
       </Dependent>
     </ReferentialConstraint>
   </Association>
-  <Association Name="FK__DatLichPT__MaPT__5EBF139D">
+  <Association Name="FK__DatLichPT__MaPT__4CA06362">
     <End Role="HuanLuyenVien" Type="Self.HuanLuyenVien" Multiplicity="0..1" />
     <End Role="DatLichPT" Type="Self.DatLichPT" Multiplicity="*" />
     <ReferentialConstraint>
@@ -137,7 +137,7 @@
       </Dependent>
     </ReferentialConstraint>
   </Association>
-  <Association Name="FK__HuanLuyen__MaVai__5165187F">
+  <Association Name="FK__HuanLuyen__MaVai__3F466844">
     <End Role="VaiTro" Type="Self.VaiTro" Multiplicity="0..1" />
     <End Role="HuanLuyenVien" Type="Self.HuanLuyenVien" Multiplicity="*" />
     <ReferentialConstraint>
@@ -149,7 +149,7 @@
       </Dependent>
     </ReferentialConstraint>
   </Association>
-  <Association Name="FK__KhachHang__MaGoi__4E88ABD4">
+  <Association Name="FK__KhachHang__MaGoi__3C69FB99">
     <End Role="GoiTap" Type="Self.GoiTap" Multiplicity="0..1" />
     <End Role="KhachHang" Type="Self.KhachHang" Multiplicity="*" />
     <ReferentialConstraint>
@@ -161,7 +161,7 @@
       </Dependent>
     </ReferentialConstraint>
   </Association>
-  <Association Name="FK__KhachHang__MaVai__4D94879B">
+  <Association Name="FK__KhachHang__MaVai__3B75D760">
     <End Role="VaiTro" Type="Self.VaiTro" Multiplicity="0..1" />
     <End Role="KhachHang" Type="Self.KhachHang" Multiplicity="*" />
     <ReferentialConstraint>
@@ -173,7 +173,7 @@
       </Dependent>
     </ReferentialConstraint>
   </Association>
-  <Association Name="FK__LichLamVie__MaPT__571DF1D5">
+  <Association Name="FK__LichLamVie__MaPT__44FF419A">
     <End Role="HuanLuyenVien" Type="Self.HuanLuyenVien" Multiplicity="0..1" />
     <End Role="LichLamViecPT" Type="Self.LichLamViecPT" Multiplicity="*" />
     <ReferentialConstraint>
@@ -185,7 +185,7 @@
       </Dependent>
     </ReferentialConstraint>
   </Association>
-  <Association Name="FK__NguoiQuan__MaVai__5441852A">
+  <Association Name="FK__NguoiQuan__MaVai__4222D4EF">
     <End Role="VaiTro" Type="Self.VaiTro" Multiplicity="0..1" />
     <End Role="NguoiQuanTri" Type="Self.NguoiQuanTri" Multiplicity="*" />
     <ReferentialConstraint>
@@ -197,6 +197,9 @@
       </Dependent>
     </ReferentialConstraint>
   </Association>
+  <Function Name="KhachHang_TimKiem" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="Ten" Type="nvarchar" Mode="In" />
+  </Function>
   <EntityContainer Name="Congnghephanmem_64131196ModelStoreContainer">
     <EntitySet Name="Comments" EntityType="Self.Comments" Schema="dbo" store:Type="Tables" />
     <EntitySet Name="DatLichPT" EntityType="Self.DatLichPT" Schema="dbo" store:Type="Tables" />
@@ -206,39 +209,39 @@
     <EntitySet Name="LichLamViecPT" EntityType="Self.LichLamViecPT" Schema="dbo" store:Type="Tables" />
     <EntitySet Name="NguoiQuanTri" EntityType="Self.NguoiQuanTri" Schema="dbo" store:Type="Tables" />
     <EntitySet Name="VaiTro" EntityType="Self.VaiTro" Schema="dbo" store:Type="Tables" />
-    <AssociationSet Name="FK__Comments__MaKH__5AEE82B9" Association="Self.FK__Comments__MaKH__5AEE82B9">
+    <AssociationSet Name="FK__Comments__MaKH__48CFD27E" Association="Self.FK__Comments__MaKH__48CFD27E">
       <End Role="KhachHang" EntitySet="KhachHang" />
       <End Role="Comments" EntitySet="Comments" />
     </AssociationSet>
-    <AssociationSet Name="FK__Comments__MaPT__59FA5E80" Association="Self.FK__Comments__MaPT__59FA5E80">
+    <AssociationSet Name="FK__Comments__MaPT__47DBAE45" Association="Self.FK__Comments__MaPT__47DBAE45">
       <End Role="HuanLuyenVien" EntitySet="HuanLuyenVien" />
       <End Role="Comments" EntitySet="Comments" />
     </AssociationSet>
-    <AssociationSet Name="FK__DatLichPT__MaKH__5DCAEF64" Association="Self.FK__DatLichPT__MaKH__5DCAEF64">
+    <AssociationSet Name="FK__DatLichPT__MaKH__4BAC3F29" Association="Self.FK__DatLichPT__MaKH__4BAC3F29">
       <End Role="KhachHang" EntitySet="KhachHang" />
       <End Role="DatLichPT" EntitySet="DatLichPT" />
     </AssociationSet>
-    <AssociationSet Name="FK__DatLichPT__MaPT__5EBF139D" Association="Self.FK__DatLichPT__MaPT__5EBF139D">
+    <AssociationSet Name="FK__DatLichPT__MaPT__4CA06362" Association="Self.FK__DatLichPT__MaPT__4CA06362">
       <End Role="HuanLuyenVien" EntitySet="HuanLuyenVien" />
       <End Role="DatLichPT" EntitySet="DatLichPT" />
     </AssociationSet>
-    <AssociationSet Name="FK__HuanLuyen__MaVai__5165187F" Association="Self.FK__HuanLuyen__MaVai__5165187F">
+    <AssociationSet Name="FK__HuanLuyen__MaVai__3F466844" Association="Self.FK__HuanLuyen__MaVai__3F466844">
       <End Role="VaiTro" EntitySet="VaiTro" />
       <End Role="HuanLuyenVien" EntitySet="HuanLuyenVien" />
     </AssociationSet>
-    <AssociationSet Name="FK__KhachHang__MaGoi__4E88ABD4" Association="Self.FK__KhachHang__MaGoi__4E88ABD4">
+    <AssociationSet Name="FK__KhachHang__MaGoi__3C69FB99" Association="Self.FK__KhachHang__MaGoi__3C69FB99">
       <End Role="GoiTap" EntitySet="GoiTap" />
       <End Role="KhachHang" EntitySet="KhachHang" />
     </AssociationSet>
-    <AssociationSet Name="FK__KhachHang__MaVai__4D94879B" Association="Self.FK__KhachHang__MaVai__4D94879B">
+    <AssociationSet Name="FK__KhachHang__MaVai__3B75D760" Association="Self.FK__KhachHang__MaVai__3B75D760">
       <End Role="VaiTro" EntitySet="VaiTro" />
       <End Role="KhachHang" EntitySet="KhachHang" />
     </AssociationSet>
-    <AssociationSet Name="FK__LichLamVie__MaPT__571DF1D5" Association="Self.FK__LichLamVie__MaPT__571DF1D5">
+    <AssociationSet Name="FK__LichLamVie__MaPT__44FF419A" Association="Self.FK__LichLamVie__MaPT__44FF419A">
       <End Role="HuanLuyenVien" EntitySet="HuanLuyenVien" />
       <End Role="LichLamViecPT" EntitySet="LichLamViecPT" />
     </AssociationSet>
-    <AssociationSet Name="FK__NguoiQuan__MaVai__5441852A" Association="Self.FK__NguoiQuan__MaVai__5441852A">
+    <AssociationSet Name="FK__NguoiQuan__MaVai__4222D4EF" Association="Self.FK__NguoiQuan__MaVai__4222D4EF">
       <End Role="VaiTro" EntitySet="VaiTro" />
       <End Role="NguoiQuanTri" EntitySet="NguoiQuanTri" />
     </AssociationSet>
