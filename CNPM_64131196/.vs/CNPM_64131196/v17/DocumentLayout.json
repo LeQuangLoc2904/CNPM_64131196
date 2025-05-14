@@ -3,11 +3,11 @@
   "WorkspaceRootPath": "D:\\laptrinhc#\\CNPMEM\\CNPM\\CNPM_64131196\\CNPM_64131196\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{480DD44A-D3EE-4D8E-898E-DEFD0ADAD19C}|CNPM_64131196\\CNPM_64131196.csproj|D:\\laptrinhc#\\CNPMEM\\CNPM\\CNPM_64131196\\CNPM_64131196\\cnpm_64131196\\controllers\\huanluyenviencontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{480DD44A-D3EE-4D8E-898E-DEFD0ADAD19C}|CNPM_64131196\\CNPM_64131196.csproj|d:\\laptrinhc#\\cnpmem\\cnpm\\cnpm_64131196\\cnpm_64131196\\cnpm_64131196\\controllers\\huanluyenviencontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{480DD44A-D3EE-4D8E-898E-DEFD0ADAD19C}|CNPM_64131196\\CNPM_64131196.csproj|solutionrelative:cnpm_64131196\\controllers\\huanluyenviencontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{480DD44A-D3EE-4D8E-898E-DEFD0ADAD19C}|CNPM_64131196\\CNPM_64131196.csproj|d:\\laptrinhc#\\cnpmem\\cnpm\\cnpm_64131196\\cnpm_64131196\\cnpm_64131196\\views\\huanluyenvien\\lichlamviec.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{480DD44A-D3EE-4D8E-898E-DEFD0ADAD19C}|CNPM_64131196\\CNPM_64131196.csproj|D:\\laptrinhc#\\CNPMEM\\CNPM\\CNPM_64131196\\CNPM_64131196\\cnpm_64131196\\views\\huanluyenvien\\lichlamviec.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{480DD44A-D3EE-4D8E-898E-DEFD0ADAD19C}|CNPM_64131196\\CNPM_64131196.csproj|solutionrelative:cnpm_64131196\\views\\huanluyenvien\\lichlamviec.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
@@ -27,7 +27,7 @@
       "RelativeMoniker": "D:0:0:{480DD44A-D3EE-4D8E-898E-DEFD0ADAD19C}|CNPM_64131196\\CNPM_64131196.csproj|solutionrelative:cnpm_64131196\\views\\khachhangs\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{480DD44A-D3EE-4D8E-898E-DEFD0ADAD19C}|CNPM_64131196\\CNPM_64131196.csproj|d:\\laptrinhc#\\cnpmem\\cnpm\\cnpm_64131196\\cnpm_64131196\\cnpm_64131196\\views\\khachhangs\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{480DD44A-D3EE-4D8E-898E-DEFD0ADAD19C}|CNPM_64131196\\CNPM_64131196.csproj|D:\\laptrinhc#\\CNPMEM\\CNPM\\CNPM_64131196\\CNPM_64131196\\cnpm_64131196\\views\\khachhangs\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{480DD44A-D3EE-4D8E-898E-DEFD0ADAD19C}|CNPM_64131196\\CNPM_64131196.csproj|solutionrelative:cnpm_64131196\\views\\khachhangs\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
@@ -152,9 +152,8 @@
               "ToolTip": "D:\\laptrinhc#\\CNPMEM\\CNPM\\CNPM_64131196\\CNPM_64131196\\CNPM_64131196\\Views\\HuanLuyenVien\\LichLamViec.cshtml",
               "RelativeToolTip": "CNPM_64131196\\Views\\HuanLuyenVien\\LichLamViec.cshtml",
               "ViewState": "AQIAAF0AAAAAAAAAAAAAAGkAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-13T13:23:30.445Z",
-              "EditorCaption": ""
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002242|",
+              "WhenOpened": "2025-05-13T13:23:30.445Z"
             },
             {
               "$type": "Document",
@@ -165,9 +164,8 @@
               "ToolTip": "D:\\laptrinhc#\\CNPMEM\\CNPM\\CNPM_64131196\\CNPM_64131196\\CNPM_64131196\\Views\\Shared\\HomeLayout.cshtml",
               "RelativeToolTip": "CNPM_64131196\\Views\\Shared\\HomeLayout.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAEEBAABIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-04T09:42:59.99Z",
-              "EditorCaption": ""
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002242|",
+              "WhenOpened": "2025-05-04T09:42:59.99Z"
             },
             {
               "$type": "Document",
@@ -179,8 +177,7 @@
               "RelativeToolTip": "CNPM_64131196\\Controllers\\KhachHangsController.cs",
               "ViewState": "AQIAABEAAAAAAAAAAAAQwBAAAAAaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-13T10:33:51.86Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-13T10:33:51.86Z"
             },
             {
               "$type": "Document",
@@ -192,8 +189,7 @@
               "RelativeToolTip": "CNPM_64131196\\Controllers\\HomeController.cs",
               "ViewState": "AQIAAC8AAAAAAAAAAAAwwDoAAAAlAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-04T09:41:17.468Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-04T09:41:17.468Z"
             },
             {
               "$type": "Document",
@@ -203,7 +199,7 @@
               "RelativeDocumentMoniker": "CNPM_64131196\\Controllers\\HuanLuyenVienController.cs",
               "ToolTip": "D:\\laptrinhc#\\CNPMEM\\CNPM\\CNPM_64131196\\CNPM_64131196\\CNPM_64131196\\Controllers\\HuanLuyenVienController.cs",
               "RelativeToolTip": "CNPM_64131196\\Controllers\\HuanLuyenVienController.cs",
-              "ViewState": "AQIAAB0AAAAAAAAAAAAUwC8AAAAAAAAA",
+              "ViewState": "AQIAACAAAAAAAAAAAAAUwCkAAAASAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-08T01:09:46.068Z",
               "EditorCaption": ""
@@ -217,9 +213,8 @@
               "ToolTip": "D:\\laptrinhc#\\CNPMEM\\CNPM\\CNPM_64131196\\CNPM_64131196\\CNPM_64131196\\Views\\KhachHangs\\Index.cshtml",
               "RelativeToolTip": "CNPM_64131196\\Views\\KhachHangs\\Index.cshtml",
               "ViewState": "AQIAAB4AAAAAAAAAAAAAAC8AAAAhAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-13T10:38:31.7Z",
-              "EditorCaption": ""
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002242|",
+              "WhenOpened": "2025-05-13T10:38:31.7Z"
             },
             {
               "$type": "Document",
@@ -230,9 +225,8 @@
               "ToolTip": "D:\\laptrinhc#\\CNPMEM\\CNPM\\CNPM_64131196\\CNPM_64131196\\CNPM_64131196\\Views\\KhachHangs\\Create.cshtml",
               "RelativeToolTip": "CNPM_64131196\\Views\\KhachHangs\\Create.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-13T11:01:26.309Z",
-              "EditorCaption": ""
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002242|",
+              "WhenOpened": "2025-05-13T11:01:26.309Z"
             },
             {
               "$type": "Document",

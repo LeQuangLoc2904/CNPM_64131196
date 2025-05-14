@@ -48,7 +48,7 @@ namespace CNPM_64131196.Controllers
 
             // tạo bản ghi bảng DatLich tại đây
             
-
+         
             return Json(code);
         }
     }
