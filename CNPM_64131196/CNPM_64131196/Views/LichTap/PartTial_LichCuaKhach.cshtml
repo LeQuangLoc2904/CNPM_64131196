@@ -1,0 +1,135 @@
+﻿@using CNPM_64131196.Models
+@{
+    Layout = null;
+    List<DatLichPT> lst_lichKhach = ViewBag.list_lichkhach;
+}
+
+<!-- Fitness Goal start -->
+
+<div class="container-fluid goal pt-5">
+    <div class="container pt-5">
+        <div class="row g-5">
+            <div class="col-lg-6 wow fadeInLeft" data-wow-delay="0.2s">
+                <div class="goal-content">
+                    @if (lst_lichKhach != null && lst_lichKhach.Count != 0)
+                    {
+                        <h4 class="display-5 mb-4" style="font-family: 'Roboto', Arial, sans-serif;">Lịch tập của bạn</h4>
+                        foreach (var item in lst_lichKhach)
+                        {
+                            <div class="goal-item d-flex p-4 mb-4">
+                                <div class="d-flex me-4">
+                                    <div class="bg-primary d-inline p-3" style="width: 80px; height: 80px;">
+                                        <img src="/assets/img/icon-1.png" class="img-fluid" alt="">
+                                    </div>
+                                </div>
+                                <div>
+                                    <h5 style="font-family: 'Roboto', Arial, sans-serif;">Ngày tập: @(item.NgayTap?.ToString("dd/MM/yyyy") ?? "")</h5>
+                                    <p class="text-white mb-0">Thời gian: <span>@(item.GioBatDau?.ToString(@"hh\:mm"))</span> - @(item.GioKetThuc?.ToString(@"hh\:mm")) </p>
+                                    <p class="text-white mb-2">Người hướng dẫn: @item.HuanLuyenVien.Ten </p>
+                                    @{
+                                        DateTime ngayHienTai = DateTime.Today;
+
+                                        if (ngayHienTai < item.NgayTap)
+                                        {
+                                            <button class="py-2 px-4" style="color: #c80036; border: 4px solid #c80036;
+                                            background-color: transparent; border-radius: 20px; padding: 10px 20px; font-weight:600; cursor: default;">
+                                                <span>Sắp diễn ra</span>
+                                            </button>
+                                        }
+                                        else if (ngayHienTai == item.NgayTap)
+                                        {
+                                            TimeSpan gioHienTai = DateTime.Now.TimeOfDay;
+                                            if (gioHienTai < item.GioBatDau)
+                                            {
+                                                <button class="py-2 px-4" style="color: #c80036; border: 4px solid #c80036;
+                                                background-color: transparent; border-radius: 20px; padding: 10px 20px; font-weight:600; cursor: default;">
+                                                    <span>Sắp diễn ra</span>
+                                                </button>
+                                            }
+                                            else if (gioHienTai >= item.GioBatDau && gioHienTai <= item.GioKetThuc)
+                                            {
+                                                <button class="py-2 px-4" style="color: #2e7d32; border: 4px solid #2e7d32;
+                                                background-color: transparent; border-radius: 20px; padding: 10px 20px; font-weight:600; cursor: default;">
+                                                    <span>Đang diễn ra</span>
+                                                </button>
+                                            }
+                                            else
+                                            {
+                                                <button class="py-2 px-4" style="color: #555; border: 4px solid #555;
+                                                background-color: transparent; border-radius: 20px; padding: 10px 20px; font-weight:600; cursor: default;">
+                                                    <span>Đã kết thúc</span>
+                                                </button>
+                                            }
+                                        }
+                                        else
+                                        {
+                                            <button class="py-2 px-4" style="color: #555; border: 4px solid #555;
+                                            background-color: transparent; border-radius: 20px; padding: 10px 20px; font-weight:600; cursor: default;">
+                                                <span>Đã kết thúc</span>
+                                            </button>
+                                        }
+                                    }
+
+                                </div>
+                                <div class="ps-5 pt-5">
+                                    @{
+                                        if (ngayHienTai < item.NgayTap)
+                                        {
+                                            <a href="#" class="btn btn-primary py-2 px-4 btnXoaLich" data-id="@item.ID"> <span>Hủy lịch</span></a>
+                                        }
+                                        else if (ngayHienTai == item.NgayTap)
+                                        {
+                                            TimeSpan gioHienTai = DateTime.Now.TimeOfDay;
+                                            if (gioHienTai < item.GioBatDau)
+                                            {
+                                                <a href="#" class="btn btn-primary py-2 px-4 btnXoaLich" data-id="@item.ID"> <span>Hủy lịch</span></a>
+                                            }
+                                            else if (gioHienTai >= item.GioBatDau && gioHienTai <= item.GioKetThuc)
+                                            {
+
+                                            }
+                                            else
+                                            {
+                                                <a href="#" class="btn btn-primary py-2 px-4 btnXoaLich" data-id="@item.ID"> <span>Xóa</span></a>
+                                            }
+                                        }
+                                        else
+                                        {
+                                            <a href="#" class="btn btn-primary py-2 px-4 btnXoaLich" data-id="@item.ID"> <span>Xóa</span></a>
+                                        }
+                                    }
+
+                                </div>
+                            </div>
+                        }
+                    }
+                    else
+                    {
+                        <h4 class="display-5 mb-4" style="font-family: 'Roboto', Arial, sans-serif;">Lịch của bạn trống</h4>
+                    }
+
+                    @*<div class="goal-item d-flex p-4 mb-4">
+            <div class="d-flex me-4">
+                <div class="bg-primary d-inline p-3" style="width: 80px; height: 80px;">
+                    <img src="img/icon-6.png" class="img-fluid" alt="">
+                </div>
+            </div>
+            <div>
+                <h4>Cardio and Strength</h4>
+                <p class="text-white mb-0">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempore est harum</p>
+            </div>
+        </div>*@
+                    @*<div class="ms-1">
+            <a href="#" class="btn btn-primary py-3 px-5 ms-2"> <span>Read Details</span></a>
+        </div>*@
+                </div>
+            </div>
+            <div class="col-lg-6 wow fadeInRight" data-wow-delay="0.2s">
+                <div class="h-100">
+                    <img src="/img/fitness-goal-banner.png" class="img-fluid h-100" style="object-fit: cover;" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Fitness Goal End -->

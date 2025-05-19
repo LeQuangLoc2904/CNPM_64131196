@@ -13,5 +13,6 @@ namespace CNPM_64131196.Areas.Admin.Controllers
         {
             return View();
         }
+      
     }
 }

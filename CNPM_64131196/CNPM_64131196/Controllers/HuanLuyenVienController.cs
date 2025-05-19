@@ -1,4 +1,5 @@
-﻿using CNPM_64131196.Models;
+﻿using CNPM_64131196.helper;
+using CNPM_64131196.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -33,7 +34,7 @@ namespace CNPM_64131196.Controllers
             int randomNumber = new Random().Next(0, quotes.Count);
 
             MapLichLamViec mapLichLamViec = new MapLichLamViec();
-            ViewBag.lichLamViec = mapLichLamViec.getLichLamViecById(id);
+            ViewBag.lichLamViec = mapLichLamViec.getLichLamViecCuaPT(id);
             ViewBag.quote = quotes[randomNumber];
 
             return View();
@@ -42,13 +43,39 @@ namespace CNPM_64131196.Controllers
         [HttpPost]
         public ActionResult DangKyLichTap(int idPTrainer, int idLichTap)
         {
-            var code = new { Success = false, msg = "", code = -1};
-            // tìm ngày tập dựa vào thứ, lấy từ idLichTap
+            var code = new { Success = false, msg = "", code = -1};    
             
+            KhachHang khachHang = (KhachHang)Session["user"];
 
-            // tạo bản ghi bảng DatLich tại đây
-            
-         
+            MapLichLamViec mapLichLamViec = new MapLichLamViec();
+            LichLamViecPT lichLamViecPT = mapLichLamViec.getLichLamViecById(idLichTap);
+
+            DateTime ngayTap = DateHelper.getNextDateByDayOfWeek((DayOfWeek)lichLamViecPT.Thu - 1);
+            DateTime ngayHienTai = DateTime.Today;
+
+            // nếu ngày tập là ngày hiện tại
+            if (ngayTap.Date == ngayHienTai.Date)
+            {
+                TimeSpan thoiGianHienTai = DateTime.Now.TimeOfDay;
+
+                if (thoiGianHienTai >= lichLamViecPT.GioBatDau) // nếu tg hiện tại vượt lố thời điểm bắt đầu
+                {
+                    code = new { Success = false, msg = "Thời gian hiện tại đã vượt quá khung giờ tập của lịch, vui lòng chọn lịch khác!", code = -1 };
+                    return Json(code);
+                }
+            }
+
+            DatLichPT lichChinhThuc = new DatLichPT();
+            lichChinhThuc.NgayDatLich = DateTime.Today;
+            lichChinhThuc.MaPT = idPTrainer;
+            lichChinhThuc.MaKH = khachHang.ID;
+            lichChinhThuc.NgayTap = ngayTap;
+            lichChinhThuc.GioBatDau = lichLamViecPT.GioBatDau;
+            lichChinhThuc.GioKetThuc = lichLamViecPT.GioKetThuc;
+
+            new MapDatLichPT().them(lichChinhThuc);
+            code = new { Success = true, msg = "Đăng ký thành công", code = 1 };
+
             return Json(code);
         }
     }

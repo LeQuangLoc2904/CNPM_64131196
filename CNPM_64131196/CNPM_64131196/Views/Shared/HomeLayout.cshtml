@@ -43,7 +43,7 @@
         <div class="nav-shaps-2"></div>
         <div class="container d-flex align-items-center">
             <div class="d-flex align-items-center h-100">
-                <a href="#" class="navbar-brand" style="height: 125px;">
+                <a href="@Url.Action("Index", "Home")" class="navbar-brand" style="height: 125px;">
                     <h1 class="text-primary mb-0"><i class="fas fa-hand-rock me-2"></i> T-Life Gym & Fitness</h1>
                     <!-- <img src="img/logo.png" alt="Logo"> -->
                 </a>
@@ -115,8 +115,17 @@
                                 </div>
                                 <a href="contact.html" class="nav-item nav-link">Contact</a>
                                 <div class="nav-btn ps-3">
+                                    @{
+                                        if (kh == null)
+                                        {
 
-                                    <a href="#" class="btn btn-primary py-2 px-4"> <span>Get Quote</span></a>
+                                        }
+                                        else
+                                        {
+                                            <a href="@Url.Action("Index", "LichTap", new {idKH = kh.ID})" class="btn btn-primary py-2 px-4 ms-5"> <span>Lịch bạn đã đặt</span></a>
+                                        }
+                                    }
+
                                 </div>
                                 <div class="nav-shaps-1"></div>
                             </div>
@@ -320,7 +329,7 @@
     <script src="~/assets/lib/easing/easing.min.js"></script>
     <script src="~/assets/lib/waypoints/waypoints.min.js"></script>
     <script src="~/assets/lib/owlcarousel/owl.carousel.min.js"></script>
-
+    <script src="~/Scripts/jsLichCuaKhach.js"></script>
 
     <!-- Template Javascript -->
     <script src="~/assets/js/main.js"></script>

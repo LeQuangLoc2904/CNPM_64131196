@@ -3,44 +3,99 @@
   "WorkspaceRootPath": "D:\\laptrinhc#\\CNPMEM\\CNPM\\CNPM_64131196\\CNPM_64131196\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{480DD44A-D3EE-4D8E-898E-DEFD0ADAD19C}|CNPM_64131196\\CNPM_64131196.csproj|d:\\laptrinhc#\\cnpmem\\cnpm\\cnpm_64131196\\cnpm_64131196\\cnpm_64131196\\controllers\\huanluyenviencontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{480DD44A-D3EE-4D8E-898E-DEFD0ADAD19C}|CNPM_64131196\\CNPM_64131196.csproj|solutionrelative:cnpm_64131196\\controllers\\huanluyenviencontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{480DD44A-D3EE-4D8E-898E-DEFD0ADAD19C}|CNPM_64131196\\CNPM_64131196.csproj|d:\\laptrinhc#\\cnpmem\\cnpm\\cnpm_64131196\\cnpm_64131196\\cnpm_64131196\\areas\\admin\\controllers\\khachhangscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{480DD44A-D3EE-4D8E-898E-DEFD0ADAD19C}|CNPM_64131196\\CNPM_64131196.csproj|solutionrelative:cnpm_64131196\\areas\\admin\\controllers\\khachhangscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{480DD44A-D3EE-4D8E-898E-DEFD0ADAD19C}|CNPM_64131196\\CNPM_64131196.csproj|D:\\laptrinhc#\\CNPMEM\\CNPM\\CNPM_64131196\\CNPM_64131196\\cnpm_64131196\\areas\\admin\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{480DD44A-D3EE-4D8E-898E-DEFD0ADAD19C}|CNPM_64131196\\CNPM_64131196.csproj|solutionrelative:cnpm_64131196\\areas\\admin\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{480DD44A-D3EE-4D8E-898E-DEFD0ADAD19C}|CNPM_64131196\\CNPM_64131196.csproj|d:\\laptrinhc#\\cnpmem\\cnpm\\cnpm_64131196\\cnpm_64131196\\cnpm_64131196\\controllers\\lichtapcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{480DD44A-D3EE-4D8E-898E-DEFD0ADAD19C}|CNPM_64131196\\CNPM_64131196.csproj|solutionrelative:cnpm_64131196\\controllers\\lichtapcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{480DD44A-D3EE-4D8E-898E-DEFD0ADAD19C}|CNPM_64131196\\CNPM_64131196.csproj|D:\\laptrinhc#\\CNPMEM\\CNPM\\CNPM_64131196\\CNPM_64131196\\cnpm_64131196\\areas\\admin\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{480DD44A-D3EE-4D8E-898E-DEFD0ADAD19C}|CNPM_64131196\\CNPM_64131196.csproj|solutionrelative:cnpm_64131196\\areas\\admin\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{480DD44A-D3EE-4D8E-898E-DEFD0ADAD19C}|CNPM_64131196\\CNPM_64131196.csproj|D:\\laptrinhc#\\CNPMEM\\CNPM\\CNPM_64131196\\CNPM_64131196\\cnpm_64131196\\views\\huanluyenvien\\lichlamviec.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{480DD44A-D3EE-4D8E-898E-DEFD0ADAD19C}|CNPM_64131196\\CNPM_64131196.csproj|solutionrelative:cnpm_64131196\\views\\huanluyenvien\\lichlamviec.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{480DD44A-D3EE-4D8E-898E-DEFD0ADAD19C}|CNPM_64131196\\CNPM_64131196.csproj|D:\\laptrinhc#\\CNPMEM\\CNPM\\CNPM_64131196\\CNPM_64131196\\cnpm_64131196\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{480DD44A-D3EE-4D8E-898E-DEFD0ADAD19C}|CNPM_64131196\\CNPM_64131196.csproj|solutionrelative:cnpm_64131196\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{480DD44A-D3EE-4D8E-898E-DEFD0ADAD19C}|CNPM_64131196\\CNPM_64131196.csproj|D:\\laptrinhc#\\CNPMEM\\CNPM\\CNPM_64131196\\CNPM_64131196\\cnpm_64131196\\views\\lichtap\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{480DD44A-D3EE-4D8E-898E-DEFD0ADAD19C}|CNPM_64131196\\CNPM_64131196.csproj|solutionrelative:cnpm_64131196\\views\\lichtap\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{480DD44A-D3EE-4D8E-898E-DEFD0ADAD19C}|CNPM_64131196\\CNPM_64131196.csproj|D:\\laptrinhc#\\CNPMEM\\CNPM\\CNPM_64131196\\CNPM_64131196\\cnpm_64131196\\controllers\\khachhangscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{480DD44A-D3EE-4D8E-898E-DEFD0ADAD19C}|CNPM_64131196\\CNPM_64131196.csproj|solutionrelative:cnpm_64131196\\controllers\\khachhangscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{480DD44A-D3EE-4D8E-898E-DEFD0ADAD19C}|CNPM_64131196\\CNPM_64131196.csproj|D:\\laptrinhc#\\CNPMEM\\CNPM\\CNPM_64131196\\CNPM_64131196\\cnpm_64131196\\views\\lichtap\\parttial_lichcuakhach.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{480DD44A-D3EE-4D8E-898E-DEFD0ADAD19C}|CNPM_64131196\\CNPM_64131196.csproj|solutionrelative:cnpm_64131196\\views\\lichtap\\parttial_lichcuakhach.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{480DD44A-D3EE-4D8E-898E-DEFD0ADAD19C}|CNPM_64131196\\CNPM_64131196.csproj|D:\\laptrinhc#\\CNPMEM\\CNPM\\CNPM_64131196\\CNPM_64131196\\cnpm_64131196\\scripts\\jslichcuakhach.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{480DD44A-D3EE-4D8E-898E-DEFD0ADAD19C}|CNPM_64131196\\CNPM_64131196.csproj|solutionrelative:cnpm_64131196\\scripts\\jslichcuakhach.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{480DD44A-D3EE-4D8E-898E-DEFD0ADAD19C}|CNPM_64131196\\CNPM_64131196.csproj|D:\\laptrinhc#\\CNPMEM\\CNPM\\CNPM_64131196\\CNPM_64131196\\cnpm_64131196\\views\\shared\\homelayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{480DD44A-D3EE-4D8E-898E-DEFD0ADAD19C}|CNPM_64131196\\CNPM_64131196.csproj|solutionrelative:cnpm_64131196\\views\\shared\\homelayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{480DD44A-D3EE-4D8E-898E-DEFD0ADAD19C}|CNPM_64131196\\CNPM_64131196.csproj|D:\\laptrinhc#\\CNPMEM\\CNPM\\CNPM_64131196\\CNPM_64131196\\cnpm_64131196\\views\\khachhangs\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{480DD44A-D3EE-4D8E-898E-DEFD0ADAD19C}|CNPM_64131196\\CNPM_64131196.csproj|solutionrelative:cnpm_64131196\\views\\khachhangs\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{480DD44A-D3EE-4D8E-898E-DEFD0ADAD19C}|CNPM_64131196\\CNPM_64131196.csproj|D:\\laptrinhc#\\CNPMEM\\CNPM\\CNPM_64131196\\CNPM_64131196\\cnpm_64131196\\models\\mapdatlichpt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{480DD44A-D3EE-4D8E-898E-DEFD0ADAD19C}|CNPM_64131196\\CNPM_64131196.csproj|solutionrelative:cnpm_64131196\\models\\mapdatlichpt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{480DD44A-D3EE-4D8E-898E-DEFD0ADAD19C}|CNPM_64131196\\CNPM_64131196.csproj|D:\\laptrinhc#\\CNPMEM\\CNPM\\CNPM_64131196\\CNPM_64131196\\cnpm_64131196\\views\\khachhangs\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{480DD44A-D3EE-4D8E-898E-DEFD0ADAD19C}|CNPM_64131196\\CNPM_64131196.csproj|solutionrelative:cnpm_64131196\\views\\khachhangs\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{480DD44A-D3EE-4D8E-898E-DEFD0ADAD19C}|CNPM_64131196\\CNPM_64131196.csproj|D:\\laptrinhc#\\CNPMEM\\CNPM\\CNPM_64131196\\CNPM_64131196\\cnpm_64131196\\controllers\\huanluyenviencontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{480DD44A-D3EE-4D8E-898E-DEFD0ADAD19C}|CNPM_64131196\\CNPM_64131196.csproj|solutionrelative:cnpm_64131196\\controllers\\huanluyenviencontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{480DD44A-D3EE-4D8E-898E-DEFD0ADAD19C}|CNPM_64131196\\CNPM_64131196.csproj|D:\\laptrinhc#\\CNPMEM\\CNPM\\CNPM_64131196\\CNPM_64131196\\cnpm_64131196\\models\\model1.context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{480DD44A-D3EE-4D8E-898E-DEFD0ADAD19C}|CNPM_64131196\\CNPM_64131196.csproj|solutionrelative:cnpm_64131196\\models\\model1.context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{480DD44A-D3EE-4D8E-898E-DEFD0ADAD19C}|CNPM_64131196\\CNPM_64131196.csproj|D:\\laptrinhc#\\CNPMEM\\CNPM\\CNPM_64131196\\CNPM_64131196\\cnpm_64131196\\models\\maplichlamviec.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{480DD44A-D3EE-4D8E-898E-DEFD0ADAD19C}|CNPM_64131196\\CNPM_64131196.csproj|solutionrelative:cnpm_64131196\\models\\maplichlamviec.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{480DD44A-D3EE-4D8E-898E-DEFD0ADAD19C}|CNPM_64131196\\CNPM_64131196.csproj|D:\\laptrinhc#\\CNPMEM\\CNPM\\CNPM_64131196\\CNPM_64131196\\cnpm_64131196\\helper\\datehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{480DD44A-D3EE-4D8E-898E-DEFD0ADAD19C}|CNPM_64131196\\CNPM_64131196.csproj|solutionrelative:cnpm_64131196\\helper\\datehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{480DD44A-D3EE-4D8E-898E-DEFD0ADAD19C}|CNPM_64131196\\CNPM_64131196.csproj|D:\\laptrinhc#\\CNPMEM\\CNPM\\CNPM_64131196\\CNPM_64131196\\cnpm_64131196\\models\\mapkhachhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{480DD44A-D3EE-4D8E-898E-DEFD0ADAD19C}|CNPM_64131196\\CNPM_64131196.csproj|solutionrelative:cnpm_64131196\\models\\mapkhachhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{480DD44A-D3EE-4D8E-898E-DEFD0ADAD19C}|CNPM_64131196\\CNPM_64131196.csproj|D:\\laptrinhc#\\CNPMEM\\CNPM\\CNPM_64131196\\CNPM_64131196\\cnpm_64131196\\models\\model1.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
-      "RelativeMoniker": "D:0:0:{480DD44A-D3EE-4D8E-898E-DEFD0ADAD19C}|CNPM_64131196\\CNPM_64131196.csproj|solutionrelative:cnpm_64131196\\models\\model1.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|"
+      "AbsoluteMoniker": "D:0:0:{480DD44A-D3EE-4D8E-898E-DEFD0ADAD19C}|CNPM_64131196\\CNPM_64131196.csproj|D:\\laptrinhc#\\CNPMEM\\CNPM\\CNPM_64131196\\CNPM_64131196\\cnpm_64131196\\models\\maphuanluyenvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{480DD44A-D3EE-4D8E-898E-DEFD0ADAD19C}|CNPM_64131196\\CNPM_64131196.csproj|solutionrelative:cnpm_64131196\\models\\maphuanluyenvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{480DD44A-D3EE-4D8E-898E-DEFD0ADAD19C}|CNPM_64131196\\CNPM_64131196.csproj|D:\\laptrinhc#\\CNPMEM\\CNPM\\CNPM_64131196\\CNPM_64131196\\cnpm_64131196\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{480DD44A-D3EE-4D8E-898E-DEFD0ADAD19C}|CNPM_64131196\\CNPM_64131196.csproj|solutionrelative:cnpm_64131196\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+      "AbsoluteMoniker": "D:0:0:{480DD44A-D3EE-4D8E-898E-DEFD0ADAD19C}|CNPM_64131196\\CNPM_64131196.csproj|D:\\laptrinhc#\\CNPMEM\\CNPM\\CNPM_64131196\\CNPM_64131196\\cnpm_64131196\\models\\datlichpt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{480DD44A-D3EE-4D8E-898E-DEFD0ADAD19C}|CNPM_64131196\\CNPM_64131196.csproj|solutionrelative:cnpm_64131196\\models\\datlichpt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Fitness-1.0.0\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{480DD44A-D3EE-4D8E-898E-DEFD0ADAD19C}|CNPM_64131196\\CNPM_64131196.csproj|D:\\laptrinhc#\\CNPMEM\\CNPM\\CNPM_64131196\\CNPM_64131196\\cnpm_64131196\\assets\\css\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{480DD44A-D3EE-4D8E-898E-DEFD0ADAD19C}|CNPM_64131196\\CNPM_64131196.csproj|solutionrelative:cnpm_64131196\\assets\\css\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{480DD44A-D3EE-4D8E-898E-DEFD0ADAD19C}|CNPM_64131196\\CNPM_64131196.csproj|D:\\laptrinhc#\\CNPMEM\\CNPM\\CNPM_64131196\\CNPM_64131196\\cnpm_64131196\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{480DD44A-D3EE-4D8E-898E-DEFD0ADAD19C}|CNPM_64131196\\CNPM_64131196.csproj|solutionrelative:cnpm_64131196\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{480DD44A-D3EE-4D8E-898E-DEFD0ADAD19C}|CNPM_64131196\\CNPM_64131196.csproj|D:\\laptrinhc#\\CNPMEM\\CNPM\\CNPM_64131196\\CNPM_64131196\\cnpm_64131196\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{480DD44A-D3EE-4D8E-898E-DEFD0ADAD19C}|CNPM_64131196\\CNPM_64131196.csproj|solutionrelative:cnpm_64131196\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{480DD44A-D3EE-4D8E-898E-DEFD0ADAD19C}|CNPM_64131196\\CNPM_64131196.csproj|D:\\laptrinhc#\\CNPMEM\\CNPM\\CNPM_64131196\\CNPM_64131196\\cnpm_64131196\\models\\huanluyenvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{480DD44A-D3EE-4D8E-898E-DEFD0ADAD19C}|CNPM_64131196\\CNPM_64131196.csproj|solutionrelative:cnpm_64131196\\models\\huanluyenvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{480DD44A-D3EE-4D8E-898E-DEFD0ADAD19C}|CNPM_64131196\\CNPM_64131196.csproj|D:\\laptrinhc#\\CNPMEM\\CNPM\\CNPM_64131196\\CNPM_64131196\\cnpm_64131196\\models\\mapdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{480DD44A-D3EE-4D8E-898E-DEFD0ADAD19C}|CNPM_64131196\\CNPM_64131196.csproj|solutionrelative:cnpm_64131196\\models\\mapdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{480DD44A-D3EE-4D8E-898E-DEFD0ADAD19C}|CNPM_64131196\\CNPM_64131196.csproj|D:\\laptrinhc#\\CNPMEM\\CNPM\\CNPM_64131196\\CNPM_64131196\\cnpm_64131196\\models\\model1.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
+      "RelativeMoniker": "D:0:0:{480DD44A-D3EE-4D8E-898E-DEFD0ADAD19C}|CNPM_64131196\\CNPM_64131196.csproj|solutionrelative:cnpm_64131196\\models\\model1.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{480DD44A-D3EE-4D8E-898E-DEFD0ADAD19C}|CNPM_64131196\\CNPM_64131196.csproj|D:\\laptrinhc#\\CNPMEM\\CNPM\\CNPM_64131196\\CNPM_64131196\\cnpm_64131196\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -55,75 +110,22 @@
       "RelativeMoniker": "D:0:0:{480DD44A-D3EE-4D8E-898E-DEFD0ADAD19C}|CNPM_64131196\\CNPM_64131196.csproj|solutionrelative:cnpm_64131196\\models\\mapnguoiquantri.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{480DD44A-D3EE-4D8E-898E-DEFD0ADAD19C}|CNPM_64131196\\CNPM_64131196.csproj|D:\\laptrinhc#\\CNPMEM\\CNPM\\CNPM_64131196\\CNPM_64131196\\cnpm_64131196\\models\\mapdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{480DD44A-D3EE-4D8E-898E-DEFD0ADAD19C}|CNPM_64131196\\CNPM_64131196.csproj|solutionrelative:cnpm_64131196\\models\\mapdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{480DD44A-D3EE-4D8E-898E-DEFD0ADAD19C}|CNPM_64131196\\CNPM_64131196.csproj|D:\\laptrinhc#\\CNPMEM\\CNPM\\CNPM_64131196\\CNPM_64131196\\cnpm_64131196\\models\\maphuanluyenvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{480DD44A-D3EE-4D8E-898E-DEFD0ADAD19C}|CNPM_64131196\\CNPM_64131196.csproj|solutionrelative:cnpm_64131196\\models\\maphuanluyenvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{480DD44A-D3EE-4D8E-898E-DEFD0ADAD19C}|CNPM_64131196\\CNPM_64131196.csproj|D:\\laptrinhc#\\CNPMEM\\CNPM\\CNPM_64131196\\CNPM_64131196\\cnpm_64131196\\areas\\admin\\views\\shared\\_adminlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{480DD44A-D3EE-4D8E-898E-DEFD0ADAD19C}|CNPM_64131196\\CNPM_64131196.csproj|solutionrelative:cnpm_64131196\\areas\\admin\\views\\shared\\_adminlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{480DD44A-D3EE-4D8E-898E-DEFD0ADAD19C}|CNPM_64131196\\CNPM_64131196.csproj|D:\\laptrinhc#\\CNPMEM\\CNPM\\CNPM_64131196\\CNPM_64131196\\cnpm_64131196\\areas\\admin\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{480DD44A-D3EE-4D8E-898E-DEFD0ADAD19C}|CNPM_64131196\\CNPM_64131196.csproj|solutionrelative:cnpm_64131196\\areas\\admin\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{480DD44A-D3EE-4D8E-898E-DEFD0ADAD19C}|CNPM_64131196\\CNPM_64131196.csproj|D:\\laptrinhc#\\CNPMEM\\CNPM\\CNPM_64131196\\CNPM_64131196\\cnpm_64131196\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{480DD44A-D3EE-4D8E-898E-DEFD0ADAD19C}|CNPM_64131196\\CNPM_64131196.csproj|solutionrelative:cnpm_64131196\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{480DD44A-D3EE-4D8E-898E-DEFD0ADAD19C}|CNPM_64131196\\CNPM_64131196.csproj|D:\\laptrinhc#\\CNPMEM\\CNPM\\CNPM_64131196\\CNPM_64131196\\cnpm_64131196\\areas\\admin\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{480DD44A-D3EE-4D8E-898E-DEFD0ADAD19C}|CNPM_64131196\\CNPM_64131196.csproj|solutionrelative:cnpm_64131196\\areas\\admin\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{480DD44A-D3EE-4D8E-898E-DEFD0ADAD19C}|CNPM_64131196\\CNPM_64131196.csproj|D:\\laptrinhc#\\CNPMEM\\CNPM\\CNPM_64131196\\CNPM_64131196\\cnpm_64131196\\models\\entity\\dbconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{480DD44A-D3EE-4D8E-898E-DEFD0ADAD19C}|CNPM_64131196\\CNPM_64131196.csproj|solutionrelative:cnpm_64131196\\models\\entity\\dbconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{480DD44A-D3EE-4D8E-898E-DEFD0ADAD19C}|CNPM_64131196\\CNPM_64131196.csproj|D:\\laptrinhc#\\CNPMEM\\CNPM\\CNPM_64131196\\CNPM_64131196\\cnpm_64131196\\assets\\login.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{480DD44A-D3EE-4D8E-898E-DEFD0ADAD19C}|CNPM_64131196\\CNPM_64131196.csproj|solutionrelative:cnpm_64131196\\assets\\login.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{480DD44A-D3EE-4D8E-898E-DEFD0ADAD19C}|CNPM_64131196\\CNPM_64131196.csproj|D:\\laptrinhc#\\CNPMEM\\CNPM\\CNPM_64131196\\CNPM_64131196\\cnpm_64131196\\models\\khachhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{480DD44A-D3EE-4D8E-898E-DEFD0ADAD19C}|CNPM_64131196\\CNPM_64131196.csproj|solutionrelative:cnpm_64131196\\models\\khachhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\admin\\startbootstrap-sb-admin-gh-pages\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{480DD44A-D3EE-4D8E-898E-DEFD0ADAD19C}|CNPM_64131196\\CNPM_64131196.csproj|D:\\laptrinhc#\\CNPMEM\\CNPM\\CNPM_64131196\\CNPM_64131196\\cnpm_64131196\\areas\\admin\\assets\\vendor\\fontawesome-free\\css\\all.min.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{480DD44A-D3EE-4D8E-898E-DEFD0ADAD19C}|CNPM_64131196\\CNPM_64131196.csproj|solutionrelative:cnpm_64131196\\areas\\admin\\assets\\vendor\\fontawesome-free\\css\\all.min.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{480DD44A-D3EE-4D8E-898E-DEFD0ADAD19C}|CNPM_64131196\\CNPM_64131196.csproj|D:\\laptrinhc#\\CNPMEM\\CNPM\\CNPM_64131196\\CNPM_64131196\\cnpm_64131196\\areas\\admin\\adminarearegistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{480DD44A-D3EE-4D8E-898E-DEFD0ADAD19C}|CNPM_64131196\\CNPM_64131196.csproj|solutionrelative:cnpm_64131196\\areas\\admin\\adminarearegistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{480DD44A-D3EE-4D8E-898E-DEFD0ADAD19C}|CNPM_64131196\\CNPM_64131196.csproj|D:\\laptrinhc#\\CNPMEM\\CNPM\\CNPM_64131196\\CNPM_64131196\\cnpm_64131196\\models\\model1.context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{480DD44A-D3EE-4D8E-898E-DEFD0ADAD19C}|CNPM_64131196\\CNPM_64131196.csproj|solutionrelative:cnpm_64131196\\models\\model1.context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{480DD44A-D3EE-4D8E-898E-DEFD0ADAD19C}|CNPM_64131196\\CNPM_64131196.csproj|D:\\laptrinhc#\\CNPMEM\\CNPM\\CNPM_64131196\\CNPM_64131196\\cnpm_64131196\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{480DD44A-D3EE-4D8E-898E-DEFD0ADAD19C}|CNPM_64131196\\CNPM_64131196.csproj|solutionrelative:cnpm_64131196\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{480DD44A-D3EE-4D8E-898E-DEFD0ADAD19C}|CNPM_64131196\\CNPM_64131196.csproj|D:\\laptrinhc#\\CNPMEM\\CNPM\\CNPM_64131196\\CNPM_64131196\\cnpm_64131196\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{480DD44A-D3EE-4D8E-898E-DEFD0ADAD19C}|CNPM_64131196\\CNPM_64131196.csproj|solutionrelative:cnpm_64131196\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\CNPM\\CNPM_64131196\\cnpm_64131196\\areas\\huanluyenvien\\views\\shared\\_hlvlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\CNPM\\CNPM_64131196\\cnpm_64131196\\areas\\huanluyenvien\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\CNPM\\CNPM_64131196\\cnpm_64131196\\areas\\huanluyenvien\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\CNPM\\CNPM_64131196\\cnpm_64131196\\areas\\huanluyenvien\\huanluyenvienarearegistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -133,7 +135,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -145,92 +147,287 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "LichLamViec.cshtml",
-              "DocumentMoniker": "D:\\laptrinhc#\\CNPMEM\\CNPM\\CNPM_64131196\\CNPM_64131196\\CNPM_64131196\\Views\\HuanLuyenVien\\LichLamViec.cshtml",
-              "RelativeDocumentMoniker": "CNPM_64131196\\Views\\HuanLuyenVien\\LichLamViec.cshtml",
-              "ToolTip": "D:\\laptrinhc#\\CNPMEM\\CNPM\\CNPM_64131196\\CNPM_64131196\\CNPM_64131196\\Views\\HuanLuyenVien\\LichLamViec.cshtml",
-              "RelativeToolTip": "CNPM_64131196\\Views\\HuanLuyenVien\\LichLamViec.cshtml",
-              "ViewState": "AQIAAF0AAAAAAAAAAAAAAGkAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002242|",
-              "WhenOpened": "2025-05-13T13:23:30.445Z"
+              "DocumentIndex": 0,
+              "Title": "KhachHangsController.cs",
+              "DocumentMoniker": "D:\\laptrinhc#\\CNPMEM\\CNPM\\CNPM_64131196\\CNPM_64131196\\CNPM_64131196\\Areas\\Admin\\Controllers\\KhachHangsController.cs",
+              "RelativeDocumentMoniker": "CNPM_64131196\\Areas\\Admin\\Controllers\\KhachHangsController.cs",
+              "ToolTip": "D:\\laptrinhc#\\CNPMEM\\CNPM\\CNPM_64131196\\CNPM_64131196\\CNPM_64131196\\Areas\\Admin\\Controllers\\KhachHangsController.cs",
+              "RelativeToolTip": "CNPM_64131196\\Areas\\Admin\\Controllers\\KhachHangsController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T07:38:31.22Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
+              "Title": "LichTapController.cs",
+              "DocumentMoniker": "D:\\laptrinhc#\\CNPMEM\\CNPM\\CNPM_64131196\\CNPM_64131196\\CNPM_64131196\\Controllers\\LichTapController.cs",
+              "RelativeDocumentMoniker": "CNPM_64131196\\Controllers\\LichTapController.cs",
+              "ToolTip": "D:\\laptrinhc#\\CNPMEM\\CNPM\\CNPM_64131196\\CNPM_64131196\\CNPM_64131196\\Controllers\\LichTapController.cs",
+              "RelativeToolTip": "CNPM_64131196\\Controllers\\LichTapController.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAgwCMAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-16T10:05:22.677Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "PartTial_LichCuaKhach.cshtml",
+              "DocumentMoniker": "D:\\laptrinhc#\\CNPMEM\\CNPM\\CNPM_64131196\\CNPM_64131196\\CNPM_64131196\\Views\\LichTap\\PartTial_LichCuaKhach.cshtml",
+              "RelativeDocumentMoniker": "CNPM_64131196\\Views\\LichTap\\PartTial_LichCuaKhach.cshtml",
+              "ToolTip": "D:\\laptrinhc#\\CNPMEM\\CNPM\\CNPM_64131196\\CNPM_64131196\\CNPM_64131196\\Views\\LichTap\\PartTial_LichCuaKhach.cshtml",
+              "RelativeToolTip": "CNPM_64131196\\Views\\LichTap\\PartTial_LichCuaKhach.cshtml",
+              "ViewState": "AQIAAGMAAAAAAAAAAAAAAB0AAABOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-16T10:16:57.447Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "HomeLayout.cshtml",
               "DocumentMoniker": "D:\\laptrinhc#\\CNPMEM\\CNPM\\CNPM_64131196\\CNPM_64131196\\CNPM_64131196\\Views\\Shared\\HomeLayout.cshtml",
               "RelativeDocumentMoniker": "CNPM_64131196\\Views\\Shared\\HomeLayout.cshtml",
               "ToolTip": "D:\\laptrinhc#\\CNPMEM\\CNPM\\CNPM_64131196\\CNPM_64131196\\CNPM_64131196\\Views\\Shared\\HomeLayout.cshtml",
               "RelativeToolTip": "CNPM_64131196\\Views\\Shared\\HomeLayout.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEEBAABIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002242|",
-              "WhenOpened": "2025-05-04T09:42:59.99Z"
+              "ViewState": "AQIAAB4AAAAAAAAAAAAAACgAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-16T10:21:12.699Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "LichLamViec.cshtml",
+              "DocumentMoniker": "D:\\laptrinhc#\\CNPMEM\\CNPM\\CNPM_64131196\\CNPM_64131196\\CNPM_64131196\\Views\\HuanLuyenVien\\LichLamViec.cshtml",
+              "RelativeDocumentMoniker": "CNPM_64131196\\Views\\HuanLuyenVien\\LichLamViec.cshtml",
+              "ToolTip": "D:\\laptrinhc#\\CNPMEM\\CNPM\\CNPM_64131196\\CNPM_64131196\\CNPM_64131196\\Views\\HuanLuyenVien\\LichLamViec.cshtml",
+              "RelativeToolTip": "CNPM_64131196\\Views\\HuanLuyenVien\\LichLamViec.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-16T10:29:58.92Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\laptrinhc#\\CNPMEM\\CNPM\\CNPM_64131196\\CNPM_64131196\\CNPM_64131196\\Areas\\Admin\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "CNPM_64131196\\Areas\\Admin\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\laptrinhc#\\CNPMEM\\CNPM\\CNPM_64131196\\CNPM_64131196\\CNPM_64131196\\Areas\\Admin\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "CNPM_64131196\\Areas\\Admin\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABEAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-04T15:16:26.3Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "KhachHangsController.cs",
-              "DocumentMoniker": "D:\\laptrinhc#\\CNPMEM\\CNPM\\CNPM_64131196\\CNPM_64131196\\CNPM_64131196\\Controllers\\KhachHangsController.cs",
-              "RelativeDocumentMoniker": "CNPM_64131196\\Controllers\\KhachHangsController.cs",
-              "ToolTip": "D:\\laptrinhc#\\CNPMEM\\CNPM\\CNPM_64131196\\CNPM_64131196\\CNPM_64131196\\Controllers\\KhachHangsController.cs",
-              "RelativeToolTip": "CNPM_64131196\\Controllers\\KhachHangsController.cs",
-              "ViewState": "AQIAABEAAAAAAAAAAAAQwBAAAAAaAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-13T10:33:51.86Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "D:\\laptrinhc#\\CNPMEM\\CNPM\\CNPM_64131196\\CNPM_64131196\\CNPM_64131196\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "CNPM_64131196\\Controllers\\HomeController.cs",
-              "ToolTip": "D:\\laptrinhc#\\CNPMEM\\CNPM\\CNPM_64131196\\CNPM_64131196\\CNPM_64131196\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "CNPM_64131196\\Controllers\\HomeController.cs",
-              "ViewState": "AQIAAC8AAAAAAAAAAAAwwDoAAAAlAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-04T09:41:17.468Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "HuanLuyenVienController.cs",
-              "DocumentMoniker": "D:\\laptrinhc#\\CNPMEM\\CNPM\\CNPM_64131196\\CNPM_64131196\\CNPM_64131196\\Controllers\\HuanLuyenVienController.cs",
-              "RelativeDocumentMoniker": "CNPM_64131196\\Controllers\\HuanLuyenVienController.cs",
-              "ToolTip": "D:\\laptrinhc#\\CNPMEM\\CNPM\\CNPM_64131196\\CNPM_64131196\\CNPM_64131196\\Controllers\\HuanLuyenVienController.cs",
-              "RelativeToolTip": "CNPM_64131196\\Controllers\\HuanLuyenVienController.cs",
-              "ViewState": "AQIAACAAAAAAAAAAAAAUwCkAAAASAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-08T01:09:46.068Z",
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\laptrinhc#\\CNPMEM\\CNPM\\CNPM_64131196\\CNPM_64131196\\CNPM_64131196\\Areas\\Admin\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "CNPM_64131196\\Areas\\Admin\\Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\laptrinhc#\\CNPMEM\\CNPM\\CNPM_64131196\\CNPM_64131196\\CNPM_64131196\\Areas\\Admin\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "CNPM_64131196\\Areas\\Admin\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-05T13:40:01.589Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "jsLichCuaKhach.js",
+              "DocumentMoniker": "D:\\laptrinhc#\\CNPMEM\\CNPM\\CNPM_64131196\\CNPM_64131196\\CNPM_64131196\\Scripts\\jsLichCuaKhach.js",
+              "RelativeDocumentMoniker": "CNPM_64131196\\Scripts\\jsLichCuaKhach.js",
+              "ToolTip": "D:\\laptrinhc#\\CNPMEM\\CNPM\\CNPM_64131196\\CNPM_64131196\\CNPM_64131196\\Scripts\\jsLichCuaKhach.js",
+              "RelativeToolTip": "CNPM_64131196\\Scripts\\jsLichCuaKhach.js",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACYAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-05-18T03:26:23.618Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\laptrinhc#\\CNPMEM\\CNPM\\CNPM_64131196\\CNPM_64131196\\CNPM_64131196\\Views\\KhachHangs\\Index.cshtml",
-              "RelativeDocumentMoniker": "CNPM_64131196\\Views\\KhachHangs\\Index.cshtml",
-              "ToolTip": "D:\\laptrinhc#\\CNPMEM\\CNPM\\CNPM_64131196\\CNPM_64131196\\CNPM_64131196\\Views\\KhachHangs\\Index.cshtml",
-              "RelativeToolTip": "CNPM_64131196\\Views\\KhachHangs\\Index.cshtml",
-              "ViewState": "AQIAAB4AAAAAAAAAAAAAAC8AAAAhAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002242|",
-              "WhenOpened": "2025-05-13T10:38:31.7Z"
+              "DocumentMoniker": "D:\\laptrinhc#\\CNPMEM\\CNPM\\CNPM_64131196\\CNPM_64131196\\CNPM_64131196\\Views\\LichTap\\Index.cshtml",
+              "RelativeDocumentMoniker": "CNPM_64131196\\Views\\LichTap\\Index.cshtml",
+              "ToolTip": "D:\\laptrinhc#\\CNPMEM\\CNPM\\CNPM_64131196\\CNPM_64131196\\CNPM_64131196\\Views\\LichTap\\Index.cshtml",
+              "RelativeToolTip": "CNPM_64131196\\Views\\LichTap\\Index.cshtml",
+              "ViewState": "AQIAACcAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-16T10:15:18.741Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "D:\\laptrinhc#\\CNPMEM\\CNPM\\CNPM_64131196\\CNPM_64131196\\CNPM_64131196\\Views\\KhachHangs\\Create.cshtml",
-              "RelativeDocumentMoniker": "CNPM_64131196\\Views\\KhachHangs\\Create.cshtml",
-              "ToolTip": "D:\\laptrinhc#\\CNPMEM\\CNPM\\CNPM_64131196\\CNPM_64131196\\CNPM_64131196\\Views\\KhachHangs\\Create.cshtml",
-              "RelativeToolTip": "CNPM_64131196\\Views\\KhachHangs\\Create.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002242|",
-              "WhenOpened": "2025-05-13T11:01:26.309Z"
+              "DocumentIndex": 9,
+              "Title": "MapDatLichPT.cs",
+              "DocumentMoniker": "D:\\laptrinhc#\\CNPMEM\\CNPM\\CNPM_64131196\\CNPM_64131196\\CNPM_64131196\\Models\\MapDatLichPT.cs",
+              "RelativeDocumentMoniker": "CNPM_64131196\\Models\\MapDatLichPT.cs",
+              "ToolTip": "D:\\laptrinhc#\\CNPMEM\\CNPM\\CNPM_64131196\\CNPM_64131196\\CNPM_64131196\\Models\\MapDatLichPT.cs",
+              "RelativeToolTip": "CNPM_64131196\\Models\\MapDatLichPT.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAwwBoAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T14:10:59.456Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "HuanLuyenVienController.cs",
+              "DocumentMoniker": "D:\\laptrinhc#\\CNPMEM\\CNPM\\CNPM_64131196\\CNPM_64131196\\CNPM_64131196\\Controllers\\HuanLuyenVienController.cs",
+              "RelativeDocumentMoniker": "CNPM_64131196\\Controllers\\HuanLuyenVienController.cs",
+              "ToolTip": "D:\\laptrinhc#\\CNPMEM\\CNPM\\CNPM_64131196\\CNPM_64131196\\CNPM_64131196\\Controllers\\HuanLuyenVienController.cs",
+              "RelativeToolTip": "CNPM_64131196\\Controllers\\HuanLuyenVienController.cs",
+              "ViewState": "AQIAABsAAAAAAAAAAAAowC4AAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-17T08:01:13.072Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "DateHelper.cs",
+              "DocumentMoniker": "D:\\laptrinhc#\\CNPMEM\\CNPM\\CNPM_64131196\\CNPM_64131196\\CNPM_64131196\\helper\\DateHelper.cs",
+              "RelativeDocumentMoniker": "CNPM_64131196\\helper\\DateHelper.cs",
+              "ToolTip": "D:\\laptrinhc#\\CNPMEM\\CNPM\\CNPM_64131196\\CNPM_64131196\\CNPM_64131196\\helper\\DateHelper.cs",
+              "RelativeToolTip": "CNPM_64131196\\helper\\DateHelper.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAABKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T11:58:14.656Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 12,
+              "Title": "MapLichLamViec.cs",
+              "DocumentMoniker": "D:\\laptrinhc#\\CNPMEM\\CNPM\\CNPM_64131196\\CNPM_64131196\\CNPM_64131196\\Models\\MapLichLamViec.cs",
+              "RelativeDocumentMoniker": "CNPM_64131196\\Models\\MapLichLamViec.cs",
+              "ToolTip": "D:\\laptrinhc#\\CNPMEM\\CNPM\\CNPM_64131196\\CNPM_64131196\\CNPM_64131196\\Models\\MapLichLamViec.cs",
+              "RelativeToolTip": "CNPM_64131196\\Models\\MapLichLamViec.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAMwBQAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T11:43:15.699Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Model1.Context.cs",
+              "DocumentMoniker": "D:\\laptrinhc#\\CNPMEM\\CNPM\\CNPM_64131196\\CNPM_64131196\\CNPM_64131196\\Models\\Model1.Context.cs",
+              "RelativeDocumentMoniker": "CNPM_64131196\\Models\\Model1.Context.cs",
+              "ToolTip": "D:\\laptrinhc#\\CNPMEM\\CNPM\\CNPM_64131196\\CNPM_64131196\\CNPM_64131196\\Models\\Model1.Context.cs",
+              "RelativeToolTip": "CNPM_64131196\\Models\\Model1.Context.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAMwBYAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-04T11:14:20.184Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "MapKhachHang.cs",
+              "DocumentMoniker": "D:\\laptrinhc#\\CNPMEM\\CNPM\\CNPM_64131196\\CNPM_64131196\\CNPM_64131196\\Models\\MapKhachHang.cs",
+              "RelativeDocumentMoniker": "CNPM_64131196\\Models\\MapKhachHang.cs",
+              "ToolTip": "D:\\laptrinhc#\\CNPMEM\\CNPM\\CNPM_64131196\\CNPM_64131196\\CNPM_64131196\\Models\\MapKhachHang.cs",
+              "RelativeToolTip": "CNPM_64131196\\Models\\MapKhachHang.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T13:47:15.699Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "MapHuanLuyenVien.cs",
+              "DocumentMoniker": "D:\\laptrinhc#\\CNPMEM\\CNPM\\CNPM_64131196\\CNPM_64131196\\CNPM_64131196\\Models\\MapHuanLuyenVien.cs",
+              "RelativeDocumentMoniker": "CNPM_64131196\\Models\\MapHuanLuyenVien.cs",
+              "ToolTip": "D:\\laptrinhc#\\CNPMEM\\CNPM\\CNPM_64131196\\CNPM_64131196\\CNPM_64131196\\Models\\MapHuanLuyenVien.cs",
+              "RelativeToolTip": "CNPM_64131196\\Models\\MapHuanLuyenVien.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAxwAwAAAA4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T13:51:20.521Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "RouteConfig.cs",
+              "DocumentMoniker": "D:\\laptrinhc#\\CNPMEM\\CNPM\\CNPM_64131196\\CNPM_64131196\\CNPM_64131196\\App_Start\\RouteConfig.cs",
+              "RelativeDocumentMoniker": "CNPM_64131196\\App_Start\\RouteConfig.cs",
+              "ToolTip": "D:\\laptrinhc#\\CNPMEM\\CNPM\\CNPM_64131196\\CNPM_64131196\\CNPM_64131196\\App_Start\\RouteConfig.cs",
+              "RelativeToolTip": "CNPM_64131196\\App_Start\\RouteConfig.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-04T15:29:38.666Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "index.html",
+              "DocumentMoniker": "D:\\Fitness-1.0.0\\index.html",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Fitness-1.0.0\\index.html",
+              "ToolTip": "D:\\Fitness-1.0.0\\index.html",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\Fitness-1.0.0\\index.html",
+              "ViewState": "AQIAABcBAAAAAAAAAAAAAEcBAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-05-16T10:24:23.814Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "style.css",
+              "DocumentMoniker": "D:\\laptrinhc#\\CNPMEM\\CNPM\\CNPM_64131196\\CNPM_64131196\\CNPM_64131196\\assets\\css\\style.css",
+              "RelativeDocumentMoniker": "CNPM_64131196\\assets\\css\\style.css",
+              "ToolTip": "D:\\laptrinhc#\\CNPMEM\\CNPM\\CNPM_64131196\\CNPM_64131196\\CNPM_64131196\\assets\\css\\style.css",
+              "RelativeToolTip": "CNPM_64131196\\assets\\css\\style.css",
+              "ViewState": "AQIAAJ8FAAAAAAAAAAAkwLIFAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-05-14T15:43:56.339Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "DatLichPT.cs",
+              "DocumentMoniker": "D:\\laptrinhc#\\CNPMEM\\CNPM\\CNPM_64131196\\CNPM_64131196\\CNPM_64131196\\Models\\DatLichPT.cs",
+              "RelativeDocumentMoniker": "CNPM_64131196\\Models\\DatLichPT.cs",
+              "ToolTip": "D:\\laptrinhc#\\CNPMEM\\CNPM\\CNPM_64131196\\CNPM_64131196\\CNPM_64131196\\Models\\DatLichPT.cs",
+              "RelativeToolTip": "CNPM_64131196\\Models\\DatLichPT.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAABCAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T11:44:15.922Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "HuanLuyenVien.cs",
+              "DocumentMoniker": "D:\\laptrinhc#\\CNPMEM\\CNPM\\CNPM_64131196\\CNPM_64131196\\CNPM_64131196\\Models\\HuanLuyenVien.cs",
+              "RelativeDocumentMoniker": "CNPM_64131196\\Models\\HuanLuyenVien.cs",
+              "ToolTip": "D:\\laptrinhc#\\CNPMEM\\CNPM\\CNPM_64131196\\CNPM_64131196\\CNPM_64131196\\Models\\HuanLuyenVien.cs",
+              "RelativeToolTip": "CNPM_64131196\\Models\\HuanLuyenVien.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAAQwBoAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T11:57:06.055Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\laptrinhc#\\CNPMEM\\CNPM\\CNPM_64131196\\CNPM_64131196\\CNPM_64131196\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "CNPM_64131196\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\laptrinhc#\\CNPMEM\\CNPM\\CNPM_64131196\\CNPM_64131196\\CNPM_64131196\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "CNPM_64131196\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAEEAAAAAAAAAAAAwwEsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-04T09:41:17.468Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "MapDB.cs",
+              "DocumentMoniker": "D:\\laptrinhc#\\CNPMEM\\CNPM\\CNPM_64131196\\CNPM_64131196\\CNPM_64131196\\Models\\MapDB.cs",
+              "RelativeDocumentMoniker": "CNPM_64131196\\Models\\MapDB.cs",
+              "ToolTip": "D:\\laptrinhc#\\CNPMEM\\CNPM\\CNPM_64131196\\CNPM_64131196\\CNPM_64131196\\Models\\MapDB.cs",
+              "RelativeToolTip": "CNPM_64131196\\Models\\MapDB.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABMAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T13:12:21.115Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
               "Title": "MapNguoiQuanTri.cs",
               "DocumentMoniker": "D:\\laptrinhc#\\CNPMEM\\CNPM\\CNPM_64131196\\CNPM_64131196\\CNPM_64131196\\Models\\MapNguoiQuanTri.cs",
               "RelativeDocumentMoniker": "CNPM_64131196\\Models\\MapNguoiQuanTri.cs",
@@ -242,42 +439,18 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "MapKhachHang.cs",
-              "DocumentMoniker": "D:\\laptrinhc#\\CNPMEM\\CNPM\\CNPM_64131196\\CNPM_64131196\\CNPM_64131196\\Models\\MapKhachHang.cs",
-              "RelativeDocumentMoniker": "CNPM_64131196\\Models\\MapKhachHang.cs",
-              "ToolTip": "D:\\laptrinhc#\\CNPMEM\\CNPM\\CNPM_64131196\\CNPM_64131196\\CNPM_64131196\\Models\\MapKhachHang.cs",
-              "RelativeToolTip": "CNPM_64131196\\Models\\MapKhachHang.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-05T13:47:15.699Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 23,
               "Title": "Model1.edmx [Diagram1]",
               "DocumentMoniker": "D:\\laptrinhc#\\CNPMEM\\CNPM\\CNPM_64131196\\CNPM_64131196\\CNPM_64131196\\Models\\Model1.edmx",
               "RelativeDocumentMoniker": "CNPM_64131196\\Models\\Model1.edmx",
-              "ToolTip": "D:\\CNPM\\CNPM_64131196\\CNPM_64131196\\Models\\Model1.edmx [Diagram1]",
-              "RelativeToolTip": "..\\..\\..\\..\\..\\CNPM\\CNPM_64131196\\CNPM_64131196\\Models\\Model1.edmx [Diagram1]",
+              "ToolTip": "D:\\laptrinhc#\\CNPMEM\\CNPM\\CNPM_64131196\\CNPM_64131196\\CNPM_64131196\\Models\\Model1.edmx [Diagram1]",
+              "RelativeToolTip": "CNPM_64131196\\Models\\Model1.edmx [Diagram1]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001116|",
               "WhenOpened": "2025-05-13T09:59:39.974Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Web.config",
-              "DocumentMoniker": "D:\\laptrinhc#\\CNPMEM\\CNPM\\CNPM_64131196\\CNPM_64131196\\CNPM_64131196\\Web.config",
-              "RelativeDocumentMoniker": "CNPM_64131196\\Web.config",
-              "ToolTip": "D:\\laptrinhc#\\CNPMEM\\CNPM\\CNPM_64131196\\CNPM_64131196\\CNPM_64131196\\Web.config",
-              "RelativeToolTip": "CNPM_64131196\\Web.config",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2025-05-04T11:19:25.798Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 25,
               "Title": "DangNhap.cshtml",
               "DocumentMoniker": "D:\\laptrinhc#\\CNPMEM\\CNPM\\CNPM_64131196\\CNPM_64131196\\CNPM_64131196\\Views\\Home\\DangNhap.cshtml",
               "RelativeDocumentMoniker": "CNPM_64131196\\Views\\Home\\DangNhap.cshtml",
@@ -289,31 +462,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "MapDB.cs",
-              "DocumentMoniker": "D:\\laptrinhc#\\CNPMEM\\CNPM\\CNPM_64131196\\CNPM_64131196\\CNPM_64131196\\Models\\MapDB.cs",
-              "RelativeDocumentMoniker": "CNPM_64131196\\Models\\MapDB.cs",
-              "ToolTip": "D:\\laptrinhc#\\CNPMEM\\CNPM\\CNPM_64131196\\CNPM_64131196\\CNPM_64131196\\Models\\MapDB.cs",
-              "RelativeToolTip": "CNPM_64131196\\Models\\MapDB.cs",
-              "ViewState": "AQIAABIAAAAAAAAAAAAowCEAAAAZAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-05T13:12:21.115Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "MapHuanLuyenVien.cs",
-              "DocumentMoniker": "D:\\laptrinhc#\\CNPMEM\\CNPM\\CNPM_64131196\\CNPM_64131196\\CNPM_64131196\\Models\\MapHuanLuyenVien.cs",
-              "RelativeDocumentMoniker": "CNPM_64131196\\Models\\MapHuanLuyenVien.cs",
-              "ToolTip": "D:\\laptrinhc#\\CNPMEM\\CNPM\\CNPM_64131196\\CNPM_64131196\\CNPM_64131196\\Models\\MapHuanLuyenVien.cs",
-              "RelativeToolTip": "CNPM_64131196\\Models\\MapHuanLuyenVien.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAA4AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-05T13:51:20.521Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 24,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\laptrinhc#\\CNPMEM\\CNPM\\CNPM_64131196\\CNPM_64131196\\CNPM_64131196\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "CNPM_64131196\\Views\\Home\\Index.cshtml",
@@ -325,19 +474,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "_HLVLayout.cshtml",
-              "DocumentMoniker": "D:\\CNPM\\CNPM_64131196\\CNPM_64131196\\Areas\\HuanLuyenVien\\Views\\Shared\\_HLVLayout.cshtml",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\CNPM\\CNPM_64131196\\CNPM_64131196\\Areas\\HuanLuyenVien\\Views\\Shared\\_HLVLayout.cshtml",
-              "ToolTip": "D:\\CNPM\\CNPM_64131196\\CNPM_64131196\\Areas\\HuanLuyenVien\\Views\\Shared\\_HLVLayout.cshtml",
-              "RelativeToolTip": "..\\..\\..\\..\\..\\CNPM\\CNPM_64131196\\CNPM_64131196\\Areas\\HuanLuyenVien\\Views\\Shared\\_HLVLayout.cshtml",
-              "ViewState": "AQIAADMAAAAAAAAAAAAAAEwAAAAlAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-05T13:41:34.46Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 27,
               "Title": "_AdminLayout.cshtml",
               "DocumentMoniker": "D:\\laptrinhc#\\CNPMEM\\CNPM\\CNPM_64131196\\CNPM_64131196\\CNPM_64131196\\Areas\\Admin\\Views\\Shared\\_AdminLayout.cshtml",
               "RelativeDocumentMoniker": "CNPM_64131196\\Areas\\Admin\\Views\\Shared\\_AdminLayout.cshtml",
@@ -349,19 +486,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "D:\\laptrinhc#\\CNPMEM\\CNPM\\CNPM_64131196\\CNPM_64131196\\CNPM_64131196\\Areas\\Admin\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "CNPM_64131196\\Areas\\Admin\\Controllers\\HomeController.cs",
-              "ToolTip": "D:\\laptrinhc#\\CNPMEM\\CNPM\\CNPM_64131196\\CNPM_64131196\\CNPM_64131196\\Areas\\Admin\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "CNPM_64131196\\Areas\\Admin\\Controllers\\HomeController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAeAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-04T15:16:26.3Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 30,
               "Title": "HomeController.cs",
               "DocumentMoniker": "D:\\CNPM\\CNPM_64131196\\CNPM_64131196\\Areas\\HuanLuyenVien\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\CNPM\\CNPM_64131196\\CNPM_64131196\\Areas\\HuanLuyenVien\\Controllers\\HomeController.cs",
@@ -373,7 +498,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 31,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\CNPM\\CNPM_64131196\\CNPM_64131196\\Areas\\HuanLuyenVien\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\CNPM\\CNPM_64131196\\CNPM_64131196\\Areas\\HuanLuyenVien\\Views\\Home\\Index.cshtml",
@@ -385,43 +510,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
-              "Title": "HuanLuyenVienAreaRegistration.cs",
-              "DocumentMoniker": "D:\\CNPM\\CNPM_64131196\\CNPM_64131196\\Areas\\HuanLuyenVien\\HuanLuyenVienAreaRegistration.cs",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\CNPM\\CNPM_64131196\\CNPM_64131196\\Areas\\HuanLuyenVien\\HuanLuyenVienAreaRegistration.cs",
-              "ToolTip": "D:\\CNPM\\CNPM_64131196\\CNPM_64131196\\Areas\\HuanLuyenVien\\HuanLuyenVienAreaRegistration.cs",
-              "RelativeToolTip": "..\\..\\..\\..\\..\\CNPM\\CNPM_64131196\\CNPM_64131196\\Areas\\HuanLuyenVien\\HuanLuyenVienAreaRegistration.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-05T13:41:09.617Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\laptrinhc#\\CNPMEM\\CNPM\\CNPM_64131196\\CNPM_64131196\\CNPM_64131196\\Areas\\Admin\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "CNPM_64131196\\Areas\\Admin\\Views\\Home\\Index.cshtml",
-              "ToolTip": "D:\\laptrinhc#\\CNPMEM\\CNPM\\CNPM_64131196\\CNPM_64131196\\CNPM_64131196\\Areas\\Admin\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "CNPM_64131196\\Areas\\Admin\\Views\\Home\\Index.cshtml",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAgAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-05T13:40:01.589Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "RouteConfig.cs",
-              "DocumentMoniker": "D:\\laptrinhc#\\CNPMEM\\CNPM\\CNPM_64131196\\CNPM_64131196\\CNPM_64131196\\App_Start\\RouteConfig.cs",
-              "RelativeDocumentMoniker": "CNPM_64131196\\App_Start\\RouteConfig.cs",
-              "ToolTip": "D:\\laptrinhc#\\CNPMEM\\CNPM\\CNPM_64131196\\CNPM_64131196\\CNPM_64131196\\App_Start\\RouteConfig.cs",
-              "RelativeToolTip": "CNPM_64131196\\App_Start\\RouteConfig.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAABUAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-04T15:29:38.666Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 28,
               "Title": "login.css",
               "DocumentMoniker": "D:\\laptrinhc#\\CNPMEM\\CNPM\\CNPM_64131196\\CNPM_64131196\\CNPM_64131196\\assets\\login.css",
               "RelativeDocumentMoniker": "CNPM_64131196\\assets\\login.css",
@@ -433,89 +522,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "DbConfig.cs",
-              "DocumentMoniker": "D:\\laptrinhc#\\CNPMEM\\CNPM\\CNPM_64131196\\CNPM_64131196\\CNPM_64131196\\Models\\Entity\\DbConfig.cs",
-              "RelativeDocumentMoniker": "CNPM_64131196\\Models\\Entity\\DbConfig.cs",
-              "ToolTip": "D:\\laptrinhc#\\CNPMEM\\CNPM\\CNPM_64131196\\CNPM_64131196\\CNPM_64131196\\Models\\Entity\\DbConfig.cs",
-              "RelativeToolTip": "CNPM_64131196\\Models\\Entity\\DbConfig.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAoAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-04T11:39:03.065Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "all.min.css",
-              "DocumentMoniker": "D:\\laptrinhc#\\CNPMEM\\CNPM\\CNPM_64131196\\CNPM_64131196\\CNPM_64131196\\Areas\\Admin\\assets\\vendor\\fontawesome-free\\css\\all.min.css",
-              "RelativeDocumentMoniker": "CNPM_64131196\\Areas\\Admin\\assets\\vendor\\fontawesome-free\\css\\all.min.css",
-              "ToolTip": "D:\\laptrinhc#\\CNPMEM\\CNPM\\CNPM_64131196\\CNPM_64131196\\CNPM_64131196\\Areas\\Admin\\assets\\vendor\\fontawesome-free\\css\\all.min.css",
-              "RelativeToolTip": "CNPM_64131196\\Areas\\Admin\\assets\\vendor\\fontawesome-free\\css\\all.min.css",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-05-04T14:06:19.95Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "index.html",
-              "DocumentMoniker": "F:\\admin\\startbootstrap-sb-admin-gh-pages\\index.html",
-              "ToolTip": "F:\\admin\\startbootstrap-sb-admin-gh-pages\\index.html",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAAAB8AAAAhAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2025-05-04T14:03:34.23Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "KhachHang.cs",
-              "DocumentMoniker": "D:\\laptrinhc#\\CNPMEM\\CNPM\\CNPM_64131196\\CNPM_64131196\\CNPM_64131196\\Models\\KhachHang.cs",
-              "RelativeDocumentMoniker": "CNPM_64131196\\Models\\KhachHang.cs",
-              "ToolTip": "D:\\laptrinhc#\\CNPMEM\\CNPM\\CNPM_64131196\\CNPM_64131196\\CNPM_64131196\\Models\\KhachHang.cs",
-              "RelativeToolTip": "CNPM_64131196\\Models\\KhachHang.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAEAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-04T15:21:26.672Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "AdminAreaRegistration.cs",
-              "DocumentMoniker": "D:\\laptrinhc#\\CNPMEM\\CNPM\\CNPM_64131196\\CNPM_64131196\\CNPM_64131196\\Areas\\Admin\\AdminAreaRegistration.cs",
-              "RelativeDocumentMoniker": "CNPM_64131196\\Areas\\Admin\\AdminAreaRegistration.cs",
-              "ToolTip": "D:\\laptrinhc#\\CNPMEM\\CNPM\\CNPM_64131196\\CNPM_64131196\\CNPM_64131196\\Areas\\Admin\\AdminAreaRegistration.cs",
-              "RelativeToolTip": "CNPM_64131196\\Areas\\Admin\\AdminAreaRegistration.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-04T13:51:30.469Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "Model1.Context.cs",
-              "DocumentMoniker": "D:\\laptrinhc#\\CNPMEM\\CNPM\\CNPM_64131196\\CNPM_64131196\\CNPM_64131196\\Models\\Model1.Context.cs",
-              "RelativeDocumentMoniker": "CNPM_64131196\\Models\\Model1.Context.cs",
-              "ToolTip": "D:\\laptrinhc#\\CNPMEM\\CNPM\\CNPM_64131196\\CNPM_64131196\\CNPM_64131196\\Models\\Model1.Context.cs",
-              "RelativeToolTip": "CNPM_64131196\\Models\\Model1.Context.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA8AAABFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-04T11:14:20.184Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "Error.cshtml",
-              "DocumentMoniker": "D:\\laptrinhc#\\CNPMEM\\CNPM\\CNPM_64131196\\CNPM_64131196\\CNPM_64131196\\Views\\Shared\\Error.cshtml",
-              "RelativeDocumentMoniker": "CNPM_64131196\\Views\\Shared\\Error.cshtml",
-              "ToolTip": "D:\\laptrinhc#\\CNPMEM\\CNPM\\CNPM_64131196\\CNPM_64131196\\CNPM_64131196\\Views\\Shared\\Error.cshtml",
-              "RelativeToolTip": "CNPM_64131196\\Views\\Shared\\Error.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-04T09:39:31.472Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 29,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "D:\\laptrinhc#\\CNPMEM\\CNPM\\CNPM_64131196\\CNPM_64131196\\CNPM_64131196\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "CNPM_64131196\\Views\\Shared\\_Layout.cshtml",

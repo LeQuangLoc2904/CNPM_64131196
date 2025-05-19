@@ -12,9 +12,14 @@ namespace CNPM_64131196.Models
             db = new Congnghephanmem_64131196Entities();
         }
 
-        public List<LichLamViecPT> getLichLamViecById(int id)
+        public List<LichLamViecPT> getLichLamViecCuaPT(int id)
         {
             return db.LichLamViecPT.Where(n => n.HuanLuyenVien.ID == id).ToList();
+        }
+
+        public LichLamViecPT getLichLamViecById(int id)
+        {
+            return db.LichLamViecPT.Find(id);
         }
     }
 }
