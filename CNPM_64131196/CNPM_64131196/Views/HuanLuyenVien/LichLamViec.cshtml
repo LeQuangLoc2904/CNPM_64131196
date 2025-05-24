@@ -52,10 +52,10 @@
                             <p class="mb-4">
                                 Thời gian: @(item.GioBatDau?.ToString(@"hh\:mm")) - @(item.GioKetThuc?.ToString(@"hh\:mm"))
                             </p>
-                            <input type="hidden" class="txtThuHid" value="@item.Thu.ToString()"/>
-                            <input type="hidden" class="txtNgayTapHid" value="@ngayTap.ToString("dd/MM/yyyy")"/>
-                            <input type="hidden" class="txtGioBatDauHid" value="@(item.GioBatDau?.ToString(@"hh\:mm"))"/>
-                            <input type="hidden" class="txtGioKetThucHid" value="@(item.GioKetThuc?.ToString(@"hh\:mm"))"/>
+                            <input type="hidden" class="txtThuHid" value="@item.Thu.ToString()" />
+                            <input type="hidden" class="txtNgayTapHid" value="@ngayTap.ToString("dd/MM/yyyy")" />
+                            <input type="hidden" class="txtGioBatDauHid" value="@(item.GioBatDau?.ToString(@"hh\:mm"))" />
+                            <input type="hidden" class="txtGioKetThucHid" value="@(item.GioKetThuc?.ToString(@"hh\:mm"))" />
 
                             @{
                                 MapDatLichPT mapDatLich = new MapDatLichPT();
@@ -82,6 +82,73 @@
             }
 
 
+        </div>
+        @if (kh != null)
+        {
+            <div class="text-center mx-auto pb-3 pt-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
+                <h1 class="display-4 text-white mb-4">Đánh giá</h1>
+                @*<p class="text-white mb-0">
+                    @ViewBag.quote
+                </p>*@
+            </div>
+            <div class="row gy-4 gx-0 justify-content-center">
+                <div class="mt-2">
+                    <h5 class="mb-4">Để lại đánh giá</h5>
+                    <form class="row g-3">
+                        <div class="col-6">
+                            <select id="ratingPT" class="form-select">
+                                <option value="5">★★★★★ (5/5)</option>
+                                <option value="4">★★★★☆ (4/5)</option>
+                                <option value="3">★★★☆☆ (3/5)</option>
+                                <option value="2">★★☆☆☆ (2/5)</option>
+                                <option value="1">★☆☆☆☆ (1/5)</option>
+                            </select>
+                        </div>
+                        <div class="col-6"></div>
+                        <div class="col-6">
+                            <textarea class="form-control" id="txtComment" placeholder="Viết đánh giá ở đây" rows="3"></textarea>
+                        </div>
+                        <div class="col-6"></div>
+                        <div class="col-12">
+                            <a href="#" class="btn btn-primary mb-0 btnComment">Đánh giá</a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        }
+        else
+        {
+            <div class="text-center mx-auto pb-3 pt-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
+                <h1 class="display-4 text-white mb-4">Đánh giá</h1>
+                @*<p class="text-white mb-0">
+                    @ViewBag.quote
+                </p>*@
+            </div>
+        }
+
+        @*load comment of pt*@
+        <div id="load_comments" class="pt-5">
+            @Html.Action("Partial_Comments", "Comment", new { id = lichLamViec[0].HuanLuyenVien.ID })
+        </div>
+        @*comment of customer*@
+    </div>
+</div>
+<div class="modal fade" id="confirmDeleteComment" tabindex="-1" aria-labelledby="confirmModalLabel" aria-hidden="true">
+    <input type="hidden" id="id_comment"/>
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">                      
+            <div class="modal-body text-center">
+                @*<i class="fas fa-exclamation-triangle warning-icon"></i>*@ <i class="fas fa-question-circle warning-icon"></i>
+                <p class="mb-0 modal-title">Xóa đánh giá của bạn vĩnh viễn?</p>               
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
+                    <i class="fas fa-times me-2"></i>Để nghĩ lại
+                </button>
+                <button type="button" class="btn btn-danger btnXacNhanXoaCmt">
+                    <i class="fas fa-check me-2"></i>Chắc chắn rồi @*<i class="fa-solid fa-check"></i>*@
+                </button>
+            </div>
         </div>
     </div>
 </div>
@@ -150,7 +217,8 @@
     @section scripts {
         <script>
         $(document).ready(function () {
-            $('body').on('click', '.btnDatLich', function () {
+            $('body').on('click', '.btnDatLich', function (e) {
+                e.preventDefault();
                 var isLogin = $('#login').val();
                 if (isLogin == 0) {
                     window.location.href = '@Url.Action("DangNhap", "Home")';

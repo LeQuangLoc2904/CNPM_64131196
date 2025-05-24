@@ -134,6 +134,7 @@
     <Compile Include="Areas\Admin\Controllers\KhachHangsController.cs" />
     <Compile Include="Areas\Trainer\Controllers\HomeController.cs" />
     <Compile Include="Areas\Trainer\TrainerAreaRegistration.cs" />
+    <Compile Include="Controllers\CommentController.cs" />
     <Compile Include="Controllers\HuanLuyenVienController.cs" />
     <Compile Include="Controllers\LichTapController.cs" />
     <Compile Include="helper\DateHelper.cs" />
@@ -163,6 +164,7 @@
     <Compile Include="Models\LichLamViecPT.cs">
       <DependentUpon>Model1.tt</DependentUpon>
     </Compile>
+    <Compile Include="Models\MapComment.cs" />
     <Compile Include="Models\MapDatLichPT.cs" />
     <Compile Include="Models\MapDB.cs" />
     <Compile Include="Models\MapHuanLuyenVien.cs" />
@@ -2276,6 +2278,7 @@
     <Content Include="Scripts\jquery.validate.min.js" />
     <Content Include="Scripts\jquery.validate.unobtrusive.js" />
     <Content Include="Scripts\jquery.validate.unobtrusive.min.js" />
+    <Content Include="Scripts\jsComment.js" />
     <Content Include="Scripts\jsLichCuaKhach.js" />
     <Content Include="Scripts\modernizr-2.8.3.js" />
     <Content Include="Web.config" />
@@ -2296,6 +2299,7 @@
     <Content Include="Views\HuanLuyenVien\LichLamViec.cshtml" />
     <Content Include="Views\LichTap\Index.cshtml" />
     <Content Include="Views\LichTap\PartTial_LichCuaKhach.cshtml" />
+    <Content Include="Views\Comment\Partial_Comments.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

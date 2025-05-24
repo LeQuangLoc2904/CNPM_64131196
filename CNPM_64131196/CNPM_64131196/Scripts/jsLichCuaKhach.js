@@ -1,12 +1,14 @@
 ﻿$(document).ready(function () {
-    $('body').on('click', '.btnXoaLich', function () {
+    $('body').on('click', '.btnXoaLich', function (e) {
+        e.preventDefault();
         var idLichCuaKhach = $(this).data('id');
 
         $('#LichCuaKhach').val(idLichCuaKhach);
         $('#confirmModalXoaLich').modal('show');       
     });
 
-    $('body').on('click', '.btnXacNhanXoaLich', function () {
+    $('body').on('click', '.btnXacNhanXoaLich', function (e) {
+        e.preventDefault();
         var idLich = $('#LichCuaKhach').val();
 
         $('#confirmModalXoaLich').modal('hide');

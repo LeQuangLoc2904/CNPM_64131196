@@ -1,0 +1,94 @@
+﻿@using CNPM_64131196.Models
+@{
+    Layout = null;
+    List<Comments> comments = ViewBag.lst_comment;
+    KhachHang user = (KhachHang)Session["user"];
+}
+
+@foreach (var item in comments)
+{  
+    <div class="d-md-flex mt-1 mb-5">
+        <div class="avatar avatar-m me-4 flex-shrink-0">
+            <img class=" rounded-circle" src="~/Images/avatar/@item.KhachHang.AnhDaiDien" alt="avatar" style="width: 60px; height: 60px;" />
+        </div>
+        <div>
+            <div class="d-sm-flex mt-1 mt-md-0 align-items-center">
+                <h5 class="me-3 mb-0 text-primary">@item.KhachHang.Ten</h5>
+                @if (item.Diem == 1)
+                {
+                    <ul class="list-inline mb-0">
+                        <li class="list-inline-item me-0"><i class="fas fa-star text-warning"></i></li>
+                        <li class="list-inline-item me-0"><i class="far fa-star text-warning"></i></li>
+                        <li class="list-inline-item me-0"><i class="far fa-star text-warning"></i></li>
+                        <li class="list-inline-item me-0"><i class="far fa-star text-warning"></i></li>
+                        <li class="list-inline-item me-0"><i class="far fa-star text-warning"></i></li>
+                    </ul>
+                }
+                else if (item.Diem == 2)
+                {
+                    <ul class="list-inline mb-0">
+                        <li class="list-inline-item me-0"><i class="fas fa-star text-warning"></i></li>
+                        <li class="list-inline-item me-0"><i class="fas fa-star text-warning"></i></li>
+                        <li class="list-inline-item me-0"><i class="far fa-star text-warning"></i></li>
+                        <li class="list-inline-item me-0"><i class="far fa-star text-warning"></i></li>
+                        <li class="list-inline-item me-0"><i class="far fa-star text-warning"></i></li>
+                    </ul>
+                }
+                else if (item.Diem == 3)
+                {
+                    <ul class="list-inline mb-0">
+                        <li class="list-inline-item me-0"><i class="fas fa-star text-warning"></i></li>
+                        <li class="list-inline-item me-0"><i class="fas fa-star text-warning"></i></li>
+                        <li class="list-inline-item me-0"><i class="fas fa-star text-warning"></i></li>
+                        <li class="list-inline-item me-0"><i class="far fa-star text-warning"></i></li>
+                        <li class="list-inline-item me-0"><i class="far fa-star text-warning"></i></li>
+                    </ul>
+                }
+                else if (item.Diem == 4)
+                {
+                    <ul class="list-inline mb-0">
+                        <li class="list-inline-item me-0"><i class="fas fa-star text-warning"></i></li>
+                        <li class="list-inline-item me-0"><i class="fas fa-star text-warning"></i></li>
+                        <li class="list-inline-item me-0"><i class="fas fa-star text-warning"></i></li>
+                        <li class="list-inline-item me-0"><i class="fas fa-star text-warning"></i></li>
+                        <li class="list-inline-item me-0"><i class="far fa-star text-warning"></i></li>
+                    </ul>
+                }
+                else
+                {
+                    <ul class="list-inline mb-0">
+                        <li class="list-inline-item me-0"><i class="fas fa-star text-warning"></i></li>
+                        <li class="list-inline-item me-0"><i class="fas fa-star text-warning"></i></li>
+                        <li class="list-inline-item me-0"><i class="fas fa-star text-warning"></i></li>
+                        <li class="list-inline-item me-0"><i class="fas fa-star text-warning"></i></li>
+                        <li class="list-inline-item me-0"><i class="fas fa-star text-warning"></i></li>
+                    </ul>
+                }
+
+            </div>
+            <p class="small mb-2">@item.NgayDanhGia</p>
+            <p class="mb-2" id="comment-text-@item.ID">@item.NhanXet</p>
+            <textarea class="form-control d-none edit-comment-textarea" id="edit-comment-@item.ID">@item.NhanXet</textarea>
+            <button class="btn btn-sm btn-primary mt-2 d-none btnSaveEdit" data-id="@item.ID">Lưu</button>
+            <hr />
+            <a href="#" class="text-body mb-0"><i class="fas fa-reply me-2"></i>Reply</a>
+        </div>
+        @if (user != null)
+        {
+            if (user.ID == item.KhachHang.ID)
+            {
+                <div class="ps-4">
+                    <a href="#" class="text-body mb-0 me-3 btnEditComment" data-id="@item.ID"><i class="fas fa-edit me-2 "></i>Chỉnh sửa</a>
+                    <a href="#" class="text-body mb-0 btnDeleteComment" data-id="@item.ID"><i class="fas fa-trash me-2 "></i>Xóa</a>
+                </div>
+            }
+            else
+            {
+                <div class="ps-4">
+                    <a href="#" class="text-body mb-0 "><i class="fas fa-flag me-2"></i>Báo vi phạm</a>
+                </div>
+            }
+
+        }      
+    </div>
+}
